@@ -49,11 +49,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a program that declares an immutable variable `x` with a value of 5. Print it. Then try to assign a new value to `x` and observe the compiler error. Change `let` to `let mut` to make it work.
     - **Hint:** The compiler error message will tell you exactly what you need to do!
     - **Book:** Chapter 3.1
-*   **Day 3: Constants**
-    *   **Topic:** Understanding the difference between immutable variables and `const`ants.
-    *   **Exercise:** Declare a constant for the number of seconds in an hour and use it in a calculation.
-    *   **Hint:** Constant names are conventionally in `UPPER_SNAKE_CASE`.
-    *   **Book:** Chapter 3.1
+- ✅ **Day 3: Constants**
+    - **Topic:** Understanding the difference between immutable variables and `const`ants.
+    - **Exercise:** Declare a constant for the number of seconds in an hour and use it in a calculation.
+    - **Hint:** Constant names are conventionally in `UPPER_SNAKE_CASE`.
+    - **Book:** Chapter 3.1
 *   **Day 4: Shadowing**
     *   **Topic:** Re-declaring a variable with `let` to "shadow" its previous value, allowing for type changes.
     *   **Exercise:** Declare a variable `spaces` that is a string of " ". Then, shadow it with a new variable, also named `spaces`, that holds the *number* of spaces.
