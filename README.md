@@ -54,11 +54,11 @@ A place to learn the Rust language.
     - **Exercise:** Declare a constant for the number of seconds in an hour and use it in a calculation.
     - **Hint:** Constant names are conventionally in `UPPER_SNAKE_CASE`.
     - **Book:** Chapter 3.1
-*   **Day 4: Shadowing**
-    *   **Topic:** Re-declaring a variable with `let` to "shadow" its previous value, allowing for type changes.
-    *   **Exercise:** Declare a variable `spaces` that is a string of " ". Then, shadow it with a new variable, also named `spaces`, that holds the *number* of spaces.
-    *   **Hint:** You'll use `let` twice for the same variable name.
-    *   **Book:** Chapter 3.1
+- ✅ **Day 4: Shadowing**
+    - **Topic:** Re-declaring a variable with `let` to "shadow" its previous value, allowing for type changes.
+    - **Exercise:** Declare a variable `spaces` that is a string of " ". Then, shadow it with a new variable, also named `spaces`, that holds the *number* of spaces.
+    - **Hint:** You'll use `let` twice for the same variable name.
+    - **Book:** Chapter 3.1
 *   **Day 5: Integer Types**
     *   **Topic:** Exploring Rust's signed (`i8` to `i128`) and unsigned (`u8` to `u128`) integer types.
     *   **Exercise:** Declare variables of different integer types (e.g., `u8`, `i32`) and print them.
