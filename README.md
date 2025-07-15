@@ -59,11 +59,11 @@ A place to learn the Rust language.
     - **Exercise:** Declare a variable `spaces` that is a string of " ". Then, shadow it with a new variable, also named `spaces`, that holds the *number* of spaces.
     - **Hint:** You'll use `let` twice for the same variable name.
     - **Book:** Chapter 3.1
-*   **Day 5: Integer Types**
-    *   **Topic:** Exploring Rust's signed (`i8` to `i128`) and unsigned (`u8` to `u128`) integer types.
-    *   **Exercise:** Declare variables of different integer types (e.g., `u8`, `i32`) and print them.
-    *   **Hint:** The default integer type is `i32`.
-    *   **Book:** Chapter 3.2
+- ✅ **Day 5: Integer Types**
+    - **Topic:** Exploring Rust's signed (`i8` to `i128`) and unsigned (`u8` to `u128`) integer types.
+    - **Exercise:** Declare variables of different integer types (e.g., `u8`, `i32`) and print them.
+    - **Hint:** The default integer type is `i32`.
+    - **Book:** Chapter 3.2
 *   **Day 6: Floating-Point, Boolean, and Character Types**
     *   **Topic:** Using `f32`/`f64` for decimals, `bool` for true/false, and `char` for single Unicode characters.
     *   **Exercise:** Create a program with one variable of each type (`f64`, `bool`, `char`) and print their values.
