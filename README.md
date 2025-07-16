@@ -64,11 +64,11 @@ A place to learn the Rust language.
     - **Exercise:** Declare variables of different integer types (e.g., `u8`, `i32`) and print them.
     - **Hint:** The default integer type is `i32`.
     - **Book:** Chapter 3.2
-*   **Day 6: Floating-Point, Boolean, and Character Types**
-    *   **Topic:** Using `f32`/`f64` for decimals, `bool` for true/false, and `char` for single Unicode characters.
-    *   **Exercise:** Create a program with one variable of each type (`f64`, `bool`, `char`) and print their values.
-    *   **Hint:** `char` literals use single quotes, like `'z'`.
-    *   **Book:** Chapter 3.2
+- ✅ **Day 6: Floating-Point, Boolean, and Character Types**
+    - **Topic:** Using `f32`/`f64` for decimals, `bool` for true/false, and `char` for single Unicode characters.
+    - **Exercise:** Create a program with one variable of each type (`f64`, `bool`, `char`) and print their values.
+    - **Hint:** `char` literals use single quotes, like `'z'`.
+    - **Book:** Chapter 3.2
 *   **Day 7: The Tuple Type**
     *   **Topic:** Grouping a fixed number of values of different types into one compound type.
     *   **Exercise:** Create a tuple `(i32, f64, u8)`. Use destructuring and index access (`.0`) to print its elements.
