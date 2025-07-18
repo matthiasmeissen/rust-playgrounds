@@ -69,11 +69,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a program with one variable of each type (`f64`, `bool`, `char`) and print their values.
     - **Hint:** `char` literals use single quotes, like `'z'`.
     - **Book:** Chapter 3.2
-*   **Day 7: The Tuple Type**
-    *   **Topic:** Grouping a fixed number of values of different types into one compound type.
-    *   **Exercise:** Create a tuple `(i32, f64, u8)`. Use destructuring and index access (`.0`) to print its elements.
-    *   **Hint:** `let (x, y, z) = my_tuple;` is a great way to get elements out.
-    *   **Book:** Chapter 3.2
+- ✅ **Day 7: The Tuple Type**
+    - **Topic:** Grouping a fixed number of values of different types into one compound type.
+    - **Exercise:** Create a tuple `(i32, f64, u8)`. Use destructuring and index access (`.0`) to print its elements.
+    - **Hint:** `let (x, y, z) = my_tuple;` is a great way to get elements out.
+    - **Book:** Chapter 3.2
 *   **Day 8: The Array Type**
     *   **Topic:** Working with fixed-size collections where every element must have the same type.
     *   **Exercise:** Create an array of the first 5 months of the year. Try to access an element by its index.

@@ -1,1 +1,0 @@
-/Users/matthiasmeissen/Desktop/rust-playgrounds/rust-01-basic-setup-250711/target/debug/rust-01-basic-setup-250711: /Users/matthiasmeissen/Desktop/rust-playgrounds/rust-01-basic-setup-250711/src/main.rs
