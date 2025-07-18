@@ -74,11 +74,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a tuple `(i32, f64, u8)`. Use destructuring and index access (`.0`) to print its elements.
     - **Hint:** `let (x, y, z) = my_tuple;` is a great way to get elements out.
     - **Book:** Chapter 3.2
-*   **Day 8: The Array Type**
-    *   **Topic:** Working with fixed-size collections where every element must have the same type.
-    *   **Exercise:** Create an array of the first 5 months of the year. Try to access an element by its index.
-    *   **Hint:** Accessing an index out of bounds will cause a `panic!`.
-    *   **Book:** Chapter 3.2
+- ✅ **Day 8: The Array Type**
+    - **Topic:** Working with fixed-size collections where every element must have the same type.
+    - **Exercise:** Create an array of the first 5 months of the year. Try to access an element by its index.
+    - **Hint:** Accessing an index out of bounds will cause a `panic!`.
+    - **Book:** Chapter 3.2
 *   **Day 9: Functions with Parameters**
     *   **Topic:** Defining functions that accept input values (arguments).
     *   **Exercise:** Write a function `print_value(x: i32)` that takes an integer and prints it. Call this function from `main`.
