@@ -79,11 +79,11 @@ A place to learn the Rust language.
     - **Exercise:** Create an array of the first 5 months of the year. Try to access an element by its index.
     - **Hint:** Accessing an index out of bounds will cause a `panic!`.
     - **Book:** Chapter 3.2
-*   **Day 9: Functions with Parameters**
-    *   **Topic:** Defining functions that accept input values (arguments).
-    *   **Exercise:** Write a function `print_value(x: i32)` that takes an integer and prints it. Call this function from `main`.
-    *   **Hint:** You must declare the type of each function parameter.
-    *   **Book:** Chapter 3.3
+- ✅ **Day 9: Functions with Parameters**
+    - **Topic:** Defining functions that accept input values (arguments).
+    - **Exercise:** Write a function `print_value(x: i32)` that takes an integer and prints it. Call this function from `main`.
+    - **Hint:** You must declare the type of each function parameter.
+    - **Book:** Chapter 3.3
 *   **Day 10: Functions with Return Values**
     *   **Topic:** Defining functions that return a value using the `->` syntax.
     *   **Exercise:** Write a function `plus_one(x: i32) -> i32` that takes an integer and returns that integer plus one.
