@@ -84,11 +84,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `print_value(x: i32)` that takes an integer and prints it. Call this function from `main`.
     - **Hint:** You must declare the type of each function parameter.
     - **Book:** Chapter 3.3
-*   **Day 10: Functions with Return Values**
-    *   **Topic:** Defining functions that return a value using the `->` syntax.
-    *   **Exercise:** Write a function `plus_one(x: i32) -> i32` that takes an integer and returns that integer plus one.
-    *   **Hint:** The last expression in a function is implicitly returned (no semicolon needed).
-    *   **Book:** Chapter 3.3
+- ✅ **Day 10: Functions with Return Values**
+    - **Topic:** Defining functions that return a value using the `->` syntax.
+    - **Exercise:** Write a function `plus_one(x: i32) -> i32` that takes an integer and returns that integer plus one.
+    - **Hint:** The last expression in a function is implicitly returned (no semicolon needed).
+    - **Book:** Chapter 3.3
 *   **Day 11: `if`/`else` Expressions**
     *   **Topic:** Branching your code's execution based on a condition.
     *   **Exercise:** Write a program that checks if a number is divisible by 2 and prints "even" or "odd".
