@@ -89,11 +89,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `plus_one(x: i32) -> i32` that takes an integer and returns that integer plus one.
     - **Hint:** The last expression in a function is implicitly returned (no semicolon needed).
     - **Book:** Chapter 3.3
-*   **Day 11: `if`/`else` Expressions**
-    *   **Topic:** Branching your code's execution based on a condition.
-    *   **Exercise:** Write a program that checks if a number is divisible by 2 and prints "even" or "odd".
-    *   **Hint:** The modulo operator is `%`.
-    *   **Book:** Chapter 3.5
+- ✅ **Day 11: `if`/`else` Expressions**
+    - **Topic:** Branching your code's execution based on a condition.
+    - **Exercise:** Write a program that checks if a number is divisible by 2 and prints "even" or "odd".
+    - **Hint:** The modulo operator is `%`.
+    - **Book:** Chapter 3.5
 *   **Day 12: Using `if` in a `let` Statement**
     *   **Topic:** Using the result of an `if`/`else` expression to assign a value to a variable.
     *   **Exercise:** Use an `if` expression to assign a value to a variable `condition` based on whether a number is greater than 5.
