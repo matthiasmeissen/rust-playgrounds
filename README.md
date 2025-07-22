@@ -94,11 +94,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a program that checks if a number is divisible by 2 and prints "even" or "odd".
     - **Hint:** The modulo operator is `%`.
     - **Book:** Chapter 3.5
-*   **Day 12: Using `if` in a `let` Statement**
-    *   **Topic:** Using the result of an `if`/`else` expression to assign a value to a variable.
-    *   **Exercise:** Use an `if` expression to assign a value to a variable `condition` based on whether a number is greater than 5.
-    *   **Hint:** The types of the values returned from each branch of the `if` must be the same.
-    *   **Book:** Chapter 3.5
+- ✅ **Day 12: Using `if` in a `let` Statement**
+    - **Topic:** Using the result of an `if`/`else` expression to assign a value to a variable.
+    - **Exercise:** Use an `if` expression to assign a value to a variable `condition` based on whether a number is greater than 5.
+    - **Hint:** The types of the values returned from each branch of the `if` must be the same.
+    - **Book:** Chapter 3.5
 *   **Day 13: The Unconditional `loop`**
     *   **Topic:** Using `loop` to create an infinite loop, and `break` to exit it.
     *   **Exercise:** Write a `loop` that counts up from 0 and `break`s when the counter reaches 5.
