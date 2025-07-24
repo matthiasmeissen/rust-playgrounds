@@ -104,11 +104,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a `loop` that counts up from 0 and `break`s when the counter reaches 5.
     - **Hint:** You can return a value from a `loop` using `break some_value;`.
     - **Book:** Chapter 3.5
-*   **Day 14: The `while` Loop**
-    *   **Topic:** Looping as long as a condition is true.
-    *   **Exercise:** Re-implement the countdown from Day 13 using a `while` loop.
-    *   **Hint:** Make sure the condition eventually becomes false to avoid an infinite loop!
-    *   **Book:** Chapter 3.5
+- ✅ **Day 14: The `while` Loop**
+    - **Topic:** Looping as long as a condition is true.
+    - **Exercise:** Re-implement the countdown from Day 13 using a `while` loop.
+    - **Hint:** Make sure the condition eventually becomes false to avoid an infinite loop!
+    - **Book:** Chapter 3.5
 *   **Day 15: The `for` Loop**
     *   **Topic:** Iterating over elements of a collection, like an array.
     *   **Exercise:** Create an array `a = [10, 20, 30, 40, 50]` and use a `for` loop to print each element.
