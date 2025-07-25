@@ -109,11 +109,11 @@ A place to learn the Rust language.
     - **Exercise:** Re-implement the countdown from Day 13 using a `while` loop.
     - **Hint:** Make sure the condition eventually becomes false to avoid an infinite loop!
     - **Book:** Chapter 3.5
-*   **Day 15: The `for` Loop**
-    *   **Topic:** Iterating over elements of a collection, like an array.
-    *   **Exercise:** Create an array `a = [10, 20, 30, 40, 50]` and use a `for` loop to print each element.
-    *   **Hint:** The `for element in a` syntax is clean and safe.
-    *   **Book:** Chapter 3.5
+- ✅ **Day 15: The `for` Loop**
+    - **Topic:** Iterating over elements of a collection, like an array.
+    - **Exercise:** Create an array `a = [10, 20, 30, 40, 50]` and use a `for` loop to print each element.
+    - **Hint:** The `for element in a` syntax is clean and safe.
+    - **Book:** Chapter 3.5
 *   **Day 16: `for` Loops with Ranges**
     *   **Topic:** Using a `for` loop with a `Range` to execute code a certain number of times.
     *   **Exercise:** Create a `for` loop that prints numbers 1 through 5 using a range (`1..6`).
