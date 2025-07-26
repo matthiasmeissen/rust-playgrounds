@@ -114,11 +114,11 @@ A place to learn the Rust language.
     - **Exercise:** Create an array `a = [10, 20, 30, 40, 50]` and use a `for` loop to print each element.
     - **Hint:** The `for element in a` syntax is clean and safe.
     - **Book:** Chapter 3.5
-*   **Day 16: `for` Loops with Ranges**
-    *   **Topic:** Using a `for` loop with a `Range` to execute code a certain number of times.
-    *   **Exercise:** Create a `for` loop that prints numbers 1 through 5 using a range (`1..6`).
-    *   **Hint:** Use `.rev()` on a range to reverse its direction.
-    *   **Book:** Chapter 3.5
+- ✅ **Day 16: `for` Loops with Ranges**
+    - **Topic:** Using a `for` loop with a `Range` to execute code a certain number of times.
+    - **Exercise:** Create a `for` loop that prints numbers 1 through 5 using a range (`1..6`).
+    - **Hint:** Use `.rev()` on a range to reverse its direction.
+    - **Book:** Chapter 3.5
 *   **Day 17: Fahrenheit to Celsius Project**
     *   **Topic:** Consolidate knowledge by building a simple temperature conversion function.
     *   **Exercise:** Write a function that takes a temperature in Fahrenheit (`f64`) and returns the equivalent in Celsius (`f64`). Test it in `main`.
