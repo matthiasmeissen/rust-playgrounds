@@ -1,15 +1,14 @@
-
 fn main() {
     describe_stack();
+    describe_heap();
 }
 
 fn describe_stack() {
     println!("-------- Stack --------");
-    println!("The stack is last in first out (It you add one thing to the end, and there is not enough space, it removes the first item)");
-    println!("Like a pile of plates");
+    println!("The stack is last in first out (LIFO), the last itme that is added is also the first to be removed");
+    println!("Like a pile of plates, you can only add or remove the one on top");
     println!("This is called pushing onto the stack and popping off the stack (a bit similar to manipulating arrays)");
     println!("All data on the stack must have a fixed size on compile time.");
-    println!("<---pop---[ stack memory with fixed size items ]<---push---");
     println!("The stack is very fast, it just adds new things to the end of it.");
 }
 
