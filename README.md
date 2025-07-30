@@ -134,11 +134,11 @@ A place to learn the Rust language.
     - **Exercise:** No code today. Read the book chapter and draw a diagram showing how a simple variable is pushed onto the stack.
     - **Hint:** The stack is fast, ordered, and for data with a known, fixed size.
     - **Book:** Chapter 4.1
-*   **Day 19: The `String` Type**
-    *   **Topic:** Introducing the heap-allocated, growable `String` type.
-    *   **Exercise:** Create a mutable `String` and use `push_str()` to add text to it. Print the result.
-    *   **Hint:** `String::from("initial text")` is how you create one.
-    *   **Book:** Chapter 4.1
+- ✅ **Day 19: The `String` Type**
+    - **Topic:** Introducing the heap-allocated, growable `String` type.
+    - **Exercise:** Create a mutable `String` and use `push_str()` to add text to it. Print the result.
+    - **Hint:** `String::from("initial text")` is how you create one.
+    - **Book:** Chapter 4.1
 *   **Day 20: Ownership and Move**
     *   **Topic:** Observing how ownership is "moved" when a heap-allocated value is assigned to another variable.
     *   **Exercise:** Assign `let s1 = String::from("hello");`. Then `let s2 = s1;`. Try to print `s1`. Observe the compiler error.
