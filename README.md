@@ -139,11 +139,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a mutable `String` and use `push_str()` to add text to it. Print the result.
     - **Hint:** `String::from("initial text")` is how you create one.
     - **Book:** Chapter 4.1
-*   **Day 20: Ownership and Move**
-    *   **Topic:** Observing how ownership is "moved" when a heap-allocated value is assigned to another variable.
-    *   **Exercise:** Assign `let s1 = String::from("hello");`. Then `let s2 = s1;`. Try to print `s1`. Observe the compiler error.
-    *   **Hint:** The error "borrow of moved value" is the key. Rust is preventing a double-free bug!
-    *   **Book:** Chapter 4.1
+- ✅ **Day 20: Ownership and Move**
+    - **Topic:** Observing how ownership is "moved" when a heap-allocated value is assigned to another variable.
+    - **Exercise:** Assign `let s1 = String::from("hello");`. Then `let s2 = s1;`. Try to print `s1`. Observe the compiler error.
+    - **Hint:** The error "borrow of moved value" is the key. Rust is preventing a double-free bug!
+    - **Book:** Chapter 4.1
 *   **Day 21: The `clone()` Method**
     *   **Topic:** Explicitly duplicating heap data using the `clone()` method to create a deep copy.
     *   **Exercise:** Fix the code from Day 20 by using `let s2 = s1.clone();`. Now both `s1` and `s2` should be printable.
