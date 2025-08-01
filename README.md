@@ -144,11 +144,11 @@ A place to learn the Rust language.
     - **Exercise:** Assign `let s1 = String::from("hello");`. Then `let s2 = s1;`. Try to print `s1`. Observe the compiler error.
     - **Hint:** The error "borrow of moved value" is the key. Rust is preventing a double-free bug!
     - **Book:** Chapter 4.1
-*   **Day 21: The `clone()` Method**
-    *   **Topic:** Explicitly duplicating heap data using the `clone()` method to create a deep copy.
-    *   **Exercise:** Fix the code from Day 20 by using `let s2 = s1.clone();`. Now both `s1` and `s2` should be printable.
-    *   **Hint:** Cloning can be expensive, so use it thoughtfully.
-    *   **Book:** Chapter 4.1
+- ✅ **Day 21: The `clone()` Method**
+    - **Topic:** Explicitly duplicating heap data using the `clone()` method to create a deep copy.
+    - **Exercise:** Fix the code from Day 20 by using `let s2 = s1.clone();`. Now both `s1` and `s2` should be printable.
+    - **Hint:** Cloning can be expensive, so use it thoughtfully.
+    - **Book:** Chapter 4.1
 *   **Day 22: Stack-Only Data: Copy**
     *   **Topic:** Understanding why simple scalar types don't "move" but are "copied" because they implement the `Copy` trait.
     *   **Exercise:** Do the same exercise as Day 20, but with an `i32` (`let x = 5; let y = x;`). Observe that you can still use `x` afterwards.
