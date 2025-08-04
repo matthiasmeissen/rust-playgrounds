@@ -159,11 +159,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `takes_ownership(some_string: String)`. In `main`, create a `String`, pass it to the function, and then try to use the string again in `main`.
     - **Hint:** The variable's ownership moves into the function's parameter, and is dropped when the function ends.
     - **Book:** Chapter 4.1
-*   **Day 24: Functions and Return Values**
-    *   **Topic:** Transferring ownership *out* of a function by returning a value.
-    *   **Exercise:** Write a function `gives_ownership() -> String` that creates a `String` and returns it. In `main`, call the function and store the result in a variable.
-    *   **Hint:** Ownership can be moved multiple times.
-    *   **Book:** Chapter 4.1
+- ✅ **Day 24: Functions and Return Values**
+    - **Topic:** Transferring ownership *out* of a function by returning a value.
+    - **Exercise:** Write a function `gives_ownership() -> String` that creates a `String` and returns it. In `main`, call the function and store the result in a variable.
+    - **Hint:** Ownership can be moved multiple times.
+    - **Book:** Chapter 4.1
 *   **Day 25: The "Pass and Return" Idiom**
     *   **Topic:** Taking ownership in a function and then returning it along with a result, a common but verbose pattern.
     *   **Exercise:** Write a function `calculate_length(s: String) -> (String, usize)` that takes a string, returns a tuple of the string and its length.
