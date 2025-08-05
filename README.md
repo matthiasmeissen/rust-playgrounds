@@ -164,11 +164,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `gives_ownership() -> String` that creates a `String` and returns it. In `main`, call the function and store the result in a variable.
     - **Hint:** Ownership can be moved multiple times.
     - **Book:** Chapter 4.1
-*   **Day 25: The "Pass and Return" Idiom**
-    *   **Topic:** Taking ownership in a function and then returning it along with a result, a common but verbose pattern.
-    *   **Exercise:** Write a function `calculate_length(s: String) -> (String, usize)` that takes a string, returns a tuple of the string and its length.
-    *   **Hint:** This pattern is a bit clumsy. There must be a better way...
-    *   **Book:** Chapter 4.1
+- ✅ **Day 25: The "Pass and Return" Idiom**
+    - **Topic:** Taking ownership in a function and then returning it along with a result, a common but verbose pattern.
+    - **Exercise:** Write a function `calculate_length(s: String) -> (String, usize)` that takes a string, returns a tuple of the string and its length.
+    - **Hint:** This pattern is a bit clumsy. There must be a better way...
+    - **Book:** Chapter 4.1
 *   **Day 26: Immutable References (`&`)**
     *   **Topic:** "Borrowing" a value by creating a reference, which lets you use a value without taking ownership.
     *   **Exercise:** Re-write `calculate_length` from Day 25 to take `s: &String` instead of `s: String`. In `main`, pass a reference (`&my_string`) and see that you can still use `my_string` after the call.
