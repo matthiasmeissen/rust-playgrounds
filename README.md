@@ -174,11 +174,11 @@ A place to learn the Rust language.
     - **Exercise:** Re-write `calculate_length` from Day 25 to take `s: &String` instead of `s: String`. In `main`, pass a reference (`&my_string`) and see that you can still use `my_string` after the call.
     - **Hint:** This is the "better way"! It's like a library book: you borrow it, but you don't own it.
     - **Book:** Chapter 4.2
-*   **Day 27: The Dereference Operator (`*`)**
-    *   **Topic:** Using the dereference operator `*` to get the value a reference is pointing to.
-    *   **Exercise:** Create a reference `r` to an `i32` variable `x`. Use `if *r == 5` to check the value.
-    *   **Hint:** In many cases, Rust dereferences automatically (like with the `.` operator), so you won't use `*` as often as in C.
-    *   **Book:** Chapter 15.1 (A little ahead, but relevant here)
+- ✅ **Day 27: The Dereference Operator (`*`)**
+    - **Topic:** Using the dereference operator `*` to get the value a reference is pointing to.
+    - **Exercise:** Create a reference `r` to an `i32` variable `x`. Use `if *r == 5` to check the value.
+    - **Hint:** In many cases, Rust dereferences automatically (like with the `.` operator), so you won't use `*` as often as in C.
+    - **Book:** Chapter 15.1 (A little ahead, but relevant here)
 *   **Day 28: Mutable References (`&mut`)**
     *   **Topic:** Creating a mutable reference to borrow a value and change it.
     *   **Exercise:** Write a function `change(some_string: &mut String)` that appends ", world" to a string. Call it from `main` with a mutable reference.
