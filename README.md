@@ -179,11 +179,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a reference `r` to an `i32` variable `x`. Use `if *r == 5` to check the value.
     - **Hint:** In many cases, Rust dereferences automatically (like with the `.` operator), so you won't use `*` as often as in C.
     - **Book:** Chapter 15.1 (A little ahead, but relevant here)
-*   **Day 28: Mutable References (`&mut`)**
-    *   **Topic:** Creating a mutable reference to borrow a value and change it.
-    *   **Exercise:** Write a function `change(some_string: &mut String)` that appends ", world" to a string. Call it from `main` with a mutable reference.
-    *   **Hint:** Both the variable and the reference must be marked `mut`.
-    *   **Book:** Chapter 4.2
+- ✅ **Day 28: Mutable References (`&mut`)**
+    - **Topic:** Creating a mutable reference to borrow a value and change it.
+    - **Exercise:** Write a function `change(some_string: &mut String)` that appends ", world" to a string. Call it from `main` with a mutable reference.
+    - **Hint:** Both the variable and the reference must be marked `mut`.
+    - **Book:** Chapter 4.2
 *   **Day 29: The "One Mutable Reference" Rule**
     *   **Topic:** Understanding Rust's key rule for preventing data races: you can have either one mutable reference OR any number of immutable references, but not both at the same time.
     *   **Exercise:** In a new scope (`{}`), create a mutable reference to a `String`. Inside that scope, try to create a second mutable reference and observe the compiler error.
