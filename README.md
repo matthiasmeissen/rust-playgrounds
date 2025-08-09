@@ -184,11 +184,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `change(some_string: &mut String)` that appends ", world" to a string. Call it from `main` with a mutable reference.
     - **Hint:** Both the variable and the reference must be marked `mut`.
     - **Book:** Chapter 4.2
-*   **Day 29: The "One Mutable Reference" Rule**
-    *   **Topic:** Understanding Rust's key rule for preventing data races: you can have either one mutable reference OR any number of immutable references, but not both at the same time.
-    *   **Exercise:** In a new scope (`{}`), create a mutable reference to a `String`. Inside that scope, try to create a second mutable reference and observe the compiler error.
-    *   **Hint:** The scopes of references are what matters.
-    *   **Book:** Chapter 4.2
+- ✅ **Day 29: The "One Mutable Reference" Rule**
+    - **Topic:** Understanding Rust's key rule for preventing data races: you can have either one mutable reference OR any number of immutable references, but not both at the same time.
+    - **Exercise:** In a new scope (`{}`), create a mutable reference to a `String`. Inside that scope, try to create a second mutable reference and observe the compiler error.
+    - **Hint:** The scopes of references are what matters.
+    - **Book:** Chapter 4.2
 *   **Day 30: The "Mutable vs. Immutable" Rule**
     *   **Topic:** Exploring the other side of the borrowing rule: you can't have a mutable reference while immutable ones exist.
     *   **Exercise:** Create two immutable references to a `String`. Then, try to create a mutable reference and observe the error.
