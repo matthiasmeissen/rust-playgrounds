@@ -189,11 +189,11 @@ A place to learn the Rust language.
     - **Exercise:** In a new scope (`{}`), create a mutable reference to a `String`. Inside that scope, try to create a second mutable reference and observe the compiler error.
     - **Hint:** The scopes of references are what matters.
     - **Book:** Chapter 4.2
-*   **Day 30: The "Mutable vs. Immutable" Rule**
-    *   **Topic:** Exploring the other side of the borrowing rule: you can't have a mutable reference while immutable ones exist.
-    *   **Exercise:** Create two immutable references to a `String`. Then, try to create a mutable reference and observe the error.
-    *   **Hint:** Readers don't expect the data to suddenly change while they're reading it!
-    *   **Book:** Chapter 4.2
+- ✅ **Day 30: The "Mutable vs. Immutable" Rule**
+    - **Topic:** Exploring the other side of the borrowing rule: you can't have a mutable reference while immutable ones exist.
+    - **Exercise:** Create two immutable references to a `String`. Then, try to create a mutable reference and observe the error.
+    - **Hint:** Readers don't expect the data to suddenly change while they're reading it!
+    - **Book:** Chapter 4.2
 *   **Day 31: Dangling References**
     *   **Topic:** Seeing how the Rust compiler's borrow checker prevents dangling references.
     *   **Exercise:** Write a function that tries to return a reference to a `String` created *inside* that function. The compiler will stop you with a lifetime error.
