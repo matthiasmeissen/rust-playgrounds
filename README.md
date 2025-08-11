@@ -194,11 +194,11 @@ A place to learn the Rust language.
     - **Exercise:** Create two immutable references to a `String`. Then, try to create a mutable reference and observe the error.
     - **Hint:** Readers don't expect the data to suddenly change while they're reading it!
     - **Book:** Chapter 4.2
-*   **Day 31: Dangling References**
-    *   **Topic:** Seeing how the Rust compiler's borrow checker prevents dangling references.
-    *   **Exercise:** Write a function that tries to return a reference to a `String` created *inside* that function. The compiler will stop you with a lifetime error.
-    *   **Hint:** Compare this to C, where returning a pointer to a local variable is a classic bug.
-    *   **Book:** Chapter 4.2
+- ✅ **Day 31: Dangling References**
+    - **Topic:** Seeing how the Rust compiler's borrow checker prevents dangling references.
+    - **Exercise:** Write a function that tries to return a reference to a `String` created *inside* that function. The compiler will stop you with a lifetime error.
+    - **Hint:** Compare this to C, where returning a pointer to a local variable is a classic bug.
+    - **Book:** Chapter 4.2
 *   **Day 32: Review: Ownership and Borrowing Rules**
     *   **Topic:** Consolidating the core rules of ownership.
     *   **Exercise:** Write a short summary of the rules in your own words: 1. Each value has an owner. 2. Only one owner at a time. 3. When the owner goes out of scope, the value is dropped.
