@@ -199,11 +199,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function that tries to return a reference to a `String` created *inside* that function. The compiler will stop you with a lifetime error.
     - **Hint:** Compare this to C, where returning a pointer to a local variable is a classic bug.
     - **Book:** Chapter 4.2
-*   **Day 32: Review: Ownership and Borrowing Rules**
-    *   **Topic:** Consolidating the core rules of ownership.
-    *   **Exercise:** Write a short summary of the rules in your own words: 1. Each value has an owner. 2. Only one owner at a time. 3. When the owner goes out of scope, the value is dropped.
-    *   **Hint:** These rules are the foundation of Rust's safety.
-    *   **Book:** Chapter 4.2
+- ✅ **Day 32: Review: Ownership and Borrowing Rules**
+    - **Topic:** Consolidating the core rules of ownership.
+    - **Exercise:** Write a short summary of the rules in your own words: 1. Each value has an owner. 2. Only one owner at a time. 3. When the owner goes out of scope, the value is dropped.
+    - **Hint:** These rules are the foundation of Rust's safety.
+    - **Book:** Chapter 4.2
 *   **Day 33: Introduction to Slices**
     *   **Topic:** Understanding that a slice lets you reference a contiguous sequence of elements in a collection rather than the whole collection.
     *   **Exercise:** No code. Read the book's motivating example for slices (the `first_word` function).
