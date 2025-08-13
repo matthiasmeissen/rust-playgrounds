@@ -204,11 +204,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a short summary of the rules in your own words: 1. Each value has an owner. 2. Only one owner at a time. 3. When the owner goes out of scope, the value is dropped.
     - **Hint:** These rules are the foundation of Rust's safety.
     - **Book:** Chapter 4.2
-*   **Day 33: Introduction to Slices**
-    *   **Topic:** Understanding that a slice lets you reference a contiguous sequence of elements in a collection rather than the whole collection.
-    *   **Exercise:** No code. Read the book's motivating example for slices (the `first_word` function).
-    *   **Hint:** Slices provide a view into data without copying it.
-    *   **Book:** Chapter 4.3
+- ✅ **Day 33: Introduction to Slices**
+    - **Topic:** Understanding that a slice lets you reference a contiguous sequence of elements in a collection rather than the whole collection.
+    - **Exercise:** No code. Read the book's motivating example for slices (the `first_word` function).
+    - **Hint:** Slices provide a view into data without copying it.
+    - **Book:** Chapter 4.3
 *   **Day 34: String Slices (`&str`)**
     *   **Topic:** Using string slices to reference a part of a `String`.
     *   **Exercise:** Create a `String` "hello world". Create slices for "hello" and "world".
