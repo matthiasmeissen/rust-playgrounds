@@ -209,11 +209,11 @@ A place to learn the Rust language.
     - **Exercise:** No code. Read the book's motivating example for slices (the `first_word` function).
     - **Hint:** Slices provide a view into data without copying it.
     - **Book:** Chapter 4.3
-*   **Day 34: String Slices (`&str`)**
-    *   **Topic:** Using string slices to reference a part of a `String`.
-    *   **Exercise:** Create a `String` "hello world". Create slices for "hello" and "world".
-    *   **Hint:** Use range syntax: `&s[0..5]`.
-    *   **Book:** Chapter 4.3
+- ✅ **Day 34: String Slices (`&str`)**
+    - **Topic:** Using string slices to reference a part of a `String`.
+    - **Exercise:** Create a `String` "hello world". Create slices for "hello" and "world".
+    - **Hint:** Use range syntax: `&s[0..5]`.
+    - **Book:** Chapter 4.3
 *   **Day 35: String Slices as Parameters**
     *   **Topic:** Improving API flexibility by accepting `&str` instead of `&String` in functions.
     *   **Exercise:** Write a function `first_word(s: &str) -> &str` that finds the first word in a string slice. Test it with both a `String` reference (`&my_string`) and a string literal (`"a string literal"`).
