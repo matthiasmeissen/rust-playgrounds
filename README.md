@@ -214,11 +214,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `String` "hello world". Create slices for "hello" and "world".
     - **Hint:** Use range syntax: `&s[0..5]`.
     - **Book:** Chapter 4.3
-*   **Day 35: String Slices as Parameters**
-    *   **Topic:** Improving API flexibility by accepting `&str` instead of `&String` in functions.
-    *   **Exercise:** Write a function `first_word(s: &str) -> &str` that finds the first word in a string slice. Test it with both a `String` reference (`&my_string`) and a string literal (`"a string literal"`).
-    *   **Hint:** String literals are of type `&str`.
-    *   **Book:** Chapter 4.3
+- ✅ **Day 35: String Slices as Parameters**
+    - **Topic:** Improving API flexibility by accepting `&str` instead of `&String` in functions.
+    - **Exercise:** Write a function `first_word(s: &str) -> &str` that finds the first word in a string slice. Test it with both a `String` reference (`&my_string`) and a string literal (`"a string literal"`).
+    - **Hint:** String literals are of type `&str`.
+    - **Book:** Chapter 4.3
 *   **Day 36: Other Slices**
     *   **Topic:** Applying the slice concept to other collections like arrays.
     *   **Exercise:** Create an array of integers. Create a slice that contains a portion of the array's elements and print its length.
