@@ -224,11 +224,11 @@ A place to learn the Rust language.
     - **Exercise:** Create an array of integers. Create a slice that contains a portion of the array's elements and print its length.
     - **Hint:** The syntax is the same: `&a[1..3]`.
     - **Book:** Chapter 4.3
-*   **Day 37: Review Phase 2**
-    *   **Topic:** Consolidating the concepts of Ownership, Borrowing, and Slices.
-    *   **Exercise:** Write a function that takes a slice of `i32`s and returns the sum. Add comments explaining why you are using a slice `&[i32]` as the parameter.
-    *   **Hint:** Using a slice is more general than using `&Vec<i32>`.
-    *   **Book:** Chapter 4
+- ✅ **Day 37: Review Phase 2**
+    - **Topic:** Consolidating the concepts of Ownership, Borrowing, and Slices.
+    - **Exercise:** Write a function that takes a slice of `i32`s and returns the sum. Add comments explaining why you are using a slice `&[i32]` as the parameter.
+    - **Hint:** Using a slice is more general than using `&Vec<i32>`.
+    - **Book:** Chapter 4
 
 ---
 
