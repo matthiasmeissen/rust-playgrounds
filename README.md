@@ -234,11 +234,11 @@ A place to learn the Rust language.
 
 ### **Phase 3: Custom Data Types (Days 38-50)**
 
-*   **Day 38: Defining `struct`s**
-    *   **Topic:** Grouping related data into a custom named type.
-    *   **Exercise:** Define a `struct Rectangle` with `width` and `height` fields, both of type `u32`.
-    *   **Hint:** This is similar to C structs, but with no trailing semicolon.
-    *   **Book:** Chapter 5.1
+- ✅ **Day 38: Defining `struct`s**
+    - **Topic:** Grouping related data into a custom named type.
+    - **Exercise:** Define a `struct Rectangle` with `width` and `height` fields, both of type `u32`.
+    - **Hint:** This is similar to C structs, but with no trailing semicolon.
+    - **Book:** Chapter 5.1
 *   **Day 39: Instantiating `struct`s**
     *   **Topic:** Creating an instance of a struct and accessing its fields with dot notation.
     *   **Exercise:** Create an instance of your `Rectangle` struct and calculate its area.
