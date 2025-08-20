@@ -239,11 +239,11 @@ A place to learn the Rust language.
     - **Exercise:** Define a `struct Rectangle` with `width` and `height` fields, both of type `u32`.
     - **Hint:** This is similar to C structs, but with no trailing semicolon.
     - **Book:** Chapter 5.1
-*   **Day 39: Instantiating `struct`s**
-    *   **Topic:** Creating an instance of a struct and accessing its fields with dot notation.
-    *   **Exercise:** Create an instance of your `Rectangle` struct and calculate its area.
-    *   **Hint:** Use `let rect1 = Rectangle { width: 30, height: 50 };`.
-    *   **Book:** Chapter 5.1
+- ✅ **Day 39: Instantiating `struct`s**
+    - **Topic:** Creating an instance of a struct and accessing its fields with dot notation.
+    - **Exercise:** Create an instance of your `Rectangle` struct and calculate its area.
+    - **Hint:** Use `let rect1 = Rectangle { width: 30, height: 50 };`.
+    - **Book:** Chapter 5.1
 *   **Day 40: Tuple Structs**
     *   **Topic:** Defining structs that behave like tuples but have a distinct type name.
     *   **Exercise:** Define and create instances of `Color(u8, u8, u8)` and `Point(i32, i32, i32)` tuple structs.
