@@ -249,11 +249,11 @@ A place to learn the Rust language.
     - **Exercise:** Define and create instances of `Color(u8, u8, u8)` and `Point(i32, i32, i32)` tuple structs.
     - **Hint:** These are useful when the field names would be redundant, e.g., `Point { x: i32, y: i32 }`.
     - **Book:** Chapter 5.1
-*   **Day 41: Structs and the `#[derive(Debug)]` Annotation**
-    *   **Topic:** Using the `Debug` trait to enable printing a struct for debugging purposes.
-    *   **Exercise:** Add `#[derive(Debug)]` above your `Rectangle` struct definition. In `main`, print an instance using the `{:?}` and `{:#?}` format specifiers.
-    *   **Hint:** The compiler error will guide you to add `#[derive(Debug)]`.
-    *   **Book:** Chapter 5.2
+- ✅ **Day 41: Structs and the `#[derive(Debug)]` Annotation**
+    - **Topic:** Using the `Debug` trait to enable printing a struct for debugging purposes.
+    - **Exercise:** Add `#[derive(Debug)]` above your `Rectangle` struct definition. In `main`, print an instance using the `{:?}` and `{:#?}` format specifiers.
+    - **Hint:** The compiler error will guide you to add `#[derive(Debug)]`.
+    - **Book:** Chapter 5.2
 *   **Day 42: Defining Methods with `impl`**
     *   **Topic:** Associating functions with a specific struct type using an `impl` (implementation) block.
     *   **Exercise:** Move the area calculation logic into a method `area(&self)` within an `impl Rectangle` block.
