@@ -254,11 +254,11 @@ A place to learn the Rust language.
     - **Exercise:** Add `#[derive(Debug)]` above your `Rectangle` struct definition. In `main`, print an instance using the `{:?}` and `{:#?}` format specifiers.
     - **Hint:** The compiler error will guide you to add `#[derive(Debug)]`.
     - **Book:** Chapter 5.2
-*   **Day 42: Defining Methods with `impl`**
-    *   **Topic:** Associating functions with a specific struct type using an `impl` (implementation) block.
-    *   **Exercise:** Move the area calculation logic into a method `area(&self)` within an `impl Rectangle` block.
-    *   **Hint:** `&self` is shorthand for `self: &Self`, where `Self` is the type the `impl` block is for. It's a borrowed reference to the instance.
-    *   **Book:** Chapter 5.3
+- ✅ **Day 42: Defining Methods with `impl`**
+    - **Topic:** Associating functions with a specific struct type using an `impl` (implementation) block.
+    - **Exercise:** Move the area calculation logic into a method `area(&self)` within an `impl Rectangle` block.
+    - **Hint:** `&self` is shorthand for `self: &Self`, where `Self` is the type the `impl` block is for. It's a borrowed reference to the instance.
+    - **Book:** Chapter 5.3
 *   **Day 43: Methods with More Parameters**
     *   **Topic:** Creating methods that take parameters in addition to `&self`.
     *   **Exercise:** Create a method `can_hold(&self, other: &Rectangle) -> bool` that checks if a second rectangle can fit inside the first.
