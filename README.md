@@ -259,11 +259,11 @@ A place to learn the Rust language.
     - **Exercise:** Move the area calculation logic into a method `area(&self)` within an `impl Rectangle` block.
     - **Hint:** `&self` is shorthand for `self: &Self`, where `Self` is the type the `impl` block is for. It's a borrowed reference to the instance.
     - **Book:** Chapter 5.3
-*   **Day 43: Methods with More Parameters**
-    *   **Topic:** Creating methods that take parameters in addition to `&self`.
-    *   **Exercise:** Create a method `can_hold(&self, other: &Rectangle) -> bool` that checks if a second rectangle can fit inside the first.
-    *   **Hint:** The first parameter is still `&self`, followed by other parameters.
-    *   **Book:** Chapter 5.3
+- ✅ **Day 43: Methods with More Parameters**
+    - **Topic:** Creating methods that take parameters in addition to `&self`.
+    - **Exercise:** Create a method `can_hold(&self, other: &Rectangle) -> bool` that checks if a second rectangle can fit inside the first.
+    - **Hint:** The first parameter is still `&self`, followed by other parameters.
+    - **Book:** Chapter 5.3
 *   **Day 44: Associated Functions (e.g., `::new`)**
     *   **Topic:** Defining functions within an `impl` block that don't take `self` as a parameter, often used as constructors.
     *   **Exercise:** Create an associated function `Rectangle::square(size: u32) -> Rectangle` that creates a square `Rectangle`.
