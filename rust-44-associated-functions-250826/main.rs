@@ -48,6 +48,7 @@ fn main() {
         rect1.area()
     );
 
+    
     // This calls an associated function within the Rectangle namespace
     // The :: tells the compiler to look for any functions that are implemented for Rectangle with this name
     // It does not have an istance to work with, but its purpose is to create one
