@@ -264,11 +264,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a method `can_hold(&self, other: &Rectangle) -> bool` that checks if a second rectangle can fit inside the first.
     - **Hint:** The first parameter is still `&self`, followed by other parameters.
     - **Book:** Chapter 5.3
-*   **Day 44: Associated Functions (e.g., `::new`)**
-    *   **Topic:** Defining functions within an `impl` block that don't take `self` as a parameter, often used as constructors.
-    *   **Exercise:** Create an associated function `Rectangle::square(size: u32) -> Rectangle` that creates a square `Rectangle`.
-    *   **Hint:** You call these with `::` syntax, like `String::from`.
-    *   **Book:** Chapter 5.3
+- ✅ **Day 44: Associated Functions (e.g., `::new`)**
+    - **Topic:** Defining functions within an `impl` block that don't take `self` as a parameter, often used as constructors.
+    - **Exercise:** Create an associated function `Rectangle::square(size: u32) -> Rectangle` that creates a square `Rectangle`.
+    - **Hint:** You call these with `::` syntax, like `String::from`.
+    - **Book:** Chapter 5.3
 *   **Day 45: Defining `enum`s**
     *   **Topic:** Creating a custom type that can be one of a few different variants.
     *   **Exercise:** Define an `enum IpAddrKind` with variants `V4` and `V6`. Create instances of both.
