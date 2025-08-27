@@ -269,11 +269,11 @@ A place to learn the Rust language.
     - **Exercise:** Create an associated function `Rectangle::square(size: u32) -> Rectangle` that creates a square `Rectangle`.
     - **Hint:** You call these with `::` syntax, like `String::from`.
     - **Book:** Chapter 5.3
-*   **Day 45: Defining `enum`s**
-    *   **Topic:** Creating a custom type that can be one of a few different variants.
-    *   **Exercise:** Define an `enum IpAddrKind` with variants `V4` and `V6`. Create instances of both.
-    *   **Hint:** Rust enums are far more powerful than C enums; they are "sum types" or "tagged unions".
-    *   **Book:** Chapter 6.1
+- ✅ **Day 45: Defining `enum`s**
+    - **Topic:** Creating a custom type that can be one of a few different variants.
+    - **Exercise:** Define an `enum IpAddrKind` with variants `V4` and `V6`. Create instances of both.
+    - **Hint:** Rust enums are far more powerful than C enums; they are "sum types" or "tagged unions".
+    - **Book:** Chapter 6.1
 *   **Day 46: Enums with Data**
     *   **Topic:** Storing data directly inside an enum variant.
     *   **Exercise:** Redefine the IP address enum to `enum IpAddr { V4(u8, u8, u8, u8), V6(String) }` and create instances.
