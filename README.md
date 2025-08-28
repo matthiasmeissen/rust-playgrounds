@@ -274,11 +274,11 @@ A place to learn the Rust language.
     - **Exercise:** Define an `enum IpAddrKind` with variants `V4` and `V6`. Create instances of both.
     - **Hint:** Rust enums are far more powerful than C enums; they are "sum types" or "tagged unions".
     - **Book:** Chapter 6.1
-*   **Day 46: Enums with Data**
-    *   **Topic:** Storing data directly inside an enum variant.
-    *   **Exercise:** Redefine the IP address enum to `enum IpAddr { V4(u8, u8, u8, u8), V6(String) }` and create instances.
-    *   **Hint:** Each variant can have different types and amounts of associated data.
-    *   **Book:** Chapter 6.1
+- ✅ **Day 46: Enums with Data**
+    - **Topic:** Storing data directly inside an enum variant.
+    - **Exercise:** Redefine the IP address enum to `enum IpAddr { V4(u8, u8, u8, u8), V6(String) }` and create instances.
+    - **Hint:** Each variant can have different types and amounts of associated data.
+    - **Book:** Chapter 6.1
 *   **Day 47: The `Option` Enum**
     *   **Topic:** Understanding Rust's primary tool for handling nullability: `Option<T>`, with variants `Some(T)` and `None`.
     *   **Exercise:** Write a function that takes an `Option<i32>` and tries to add one to the inner value.
