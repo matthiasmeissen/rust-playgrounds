@@ -284,11 +284,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function that takes an `Option<i32>` and tries to add one to the inner value.
     - **Hint:** `Option` is so important it's brought into scope by default. There is no `NULL` in safe Rust.
     - **Book:** Chapter 6.1
-*   **Day 48: The `match` Control Flow Operator**
-    *   **Topic:** Using `match` to compare a value against a series of patterns and execute code based on which pattern matches.
-    *   **Exercise:** Write a function `value_in_cents(coin: Coin) -> u8` for a `Coin` enum (`Penny`, `Nickel`, `Dime`, `Quarter`) that returns its worth using a `match` expression.
-    *   **Hint:** `match` arms must cover all possibilities. The compiler will enforce this.
-    *   **Book:** Chapter 6.2
+- ✅ **Day 48: The `match` Control Flow Operator**
+    - **Topic:** Using `match` to compare a value against a series of patterns and execute code based on which pattern matches.
+    - **Exercise:** Write a function `value_in_cents(coin: Coin) -> u8` for a `Coin` enum (`Penny`, `Nickel`, `Dime`, `Quarter`) that returns its worth using a `match` expression.
+    - **Hint:** `match` arms must cover all possibilities. The compiler will enforce this.
+    - **Book:** Chapter 6.2
 *   **Day 49: Matching on `Option<T>`**
     *   **Topic:** Using `match` to handle the `Some` and `None` variants of an `Option`.
     *   **Exercise:** Write a function `plus_one(x: Option<i32>) -> Option<i32>` that uses `match` to either increment the value inside `Some` or return `None`.
