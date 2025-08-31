@@ -289,11 +289,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `value_in_cents(coin: Coin) -> u8` for a `Coin` enum (`Penny`, `Nickel`, `Dime`, `Quarter`) that returns its worth using a `match` expression.
     - **Hint:** `match` arms must cover all possibilities. The compiler will enforce this.
     - **Book:** Chapter 6.2
-*   **Day 49: Matching on `Option<T>`**
-    *   **Topic:** Using `match` to handle the `Some` and `None` variants of an `Option`.
-    *   **Exercise:** Write a function `plus_one(x: Option<i32>) -> Option<i32>` that uses `match` to either increment the value inside `Some` or return `None`.
-    *   **Hint:** This is a very common pattern for safely handling optional values.
-    *   **Book:** Chapter 6.3
+- ✅ **Day 49: Matching on `Option<T>`**
+    - **Topic:** Using `match` to handle the `Some` and `None` variants of an `Option`.
+    - **Exercise:** Write a function `plus_one(x: Option<i32>) -> Option<i32>` that uses `match` to either increment the value inside `Some` or return `None`.
+    - **Hint:** This is a very common pattern for safely handling optional values.
+    - **Book:** Chapter 6.3
 *   **Day 50: `if let` for Concise Control Flow**
     *   **Topic:** Using the `if let` syntax as a less verbose alternative to `match` when you only care about one specific pattern.
     *   **Exercise:** Re-write a simple `match` statement on an `Option` to use `if let Some(value) = my_option { ... }` instead.
