@@ -300,8 +300,6 @@ A place to learn the Rust language.
     *   **Hint:** Use `if let` when you want to do something with one variant and ignore all others.
     *   **Book:** Chapter 6.3
 
-Excellent! Let's continue with the rest of the curriculum.
-
 ---
 
 ### **Phase 4: Organizing and Collecting Data (Days 51-65)**
