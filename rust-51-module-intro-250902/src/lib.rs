@@ -1,4 +1,3 @@
-
 // To organize your code there is a thing called modules
 // It is similar to a filesystem, where you place related items in the same folder
 // You can also nest things to create a hierarchy when needed
@@ -16,8 +15,10 @@ pub mod front_of_house {
         }
     }
 
-    mod serving {
-        fn take_order() {}
+    pub mod serving {
+        pub fn take_order() {
+            println!("The order has been taken.");
+        }
 
         fn serve_order() {}
 

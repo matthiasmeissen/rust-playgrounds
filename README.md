@@ -304,11 +304,11 @@ A place to learn the Rust language.
 
 ### **Phase 4: Organizing and Collecting Data (Days 51-65)**
 
-*   **Day 51: Introduction to Modules**
-    *   **Topic:** Using the `mod` keyword to group related code into separate namespaces within a single file.
-    *   **Exercise:** Create a `front_of_house` module with a child `hosting` module inside it. Define an `add_to_waitlist` function inside `hosting`.
-    *   **Hint:** Think of modules as a tree structure, with the crate root at the top.
-    *   **Book:** Chapter 7.1 & 7.2
+- ✅ **Day 51: Introduction to Modules**
+    - **Topic:** Using the `mod` keyword to group related code into separate namespaces within a single file.
+    - **Exercise:** Create a `front_of_house` module with a child `hosting` module inside it. Define an `add_to_waitlist` function inside `hosting`.
+    - **Hint:** Think of modules as a tree structure, with the crate root at the top.
+    - **Book:** Chapter 7.1 & 7.2
 *   **Day 52: Paths and the `use` Keyword**
     *   **Topic:** Bringing module paths into scope with the `use` keyword to avoid writing long paths repeatedly.
     *   **Exercise:** From `main`, call the `add_to_waitlist` function from Day 51 using its full path. Then, add a `use` statement to bring `front_of_house::hosting` into scope and call the function with the shorter path.
