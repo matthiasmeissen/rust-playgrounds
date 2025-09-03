@@ -6,13 +6,15 @@
 mod front_of_house {
     pub mod hosting {
         pub fn add_to_waitlist() {
-            println!("Order taken.");
+            println!("Added to waitlist.");
         }
 
         fn seat_at_table() {}
     }
     pub mod serving {
-        fn take_order() {}
+        pub fn take_order() {
+            println!("Order taken.");
+        }
 
         fn serve_order() {}
 
@@ -23,8 +25,12 @@ mod front_of_house {
 // You can shorten the path to a module with the use keyword
 use crate::front_of_house::hosting;
 
+use crate::front_of_house::serving::take_order;
+
 fn main() {
     front_of_house::hosting::add_to_waitlist();
 
     hosting::add_to_waitlist();
+
+    take_order();
 }
