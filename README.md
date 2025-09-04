@@ -314,11 +314,11 @@ A place to learn the Rust language.
     - **Exercise:** From `main`, call the `add_to_waitlist` function from Day 51 using its full path. Then, add a `use` statement to bring `front_of_house::hosting` into scope and call the function with the shorter path.
     - **Hint:** `use crate::front_of_house::hosting;`
     - **Book:** Chapter 7.4
-*   **Day 53: The `pub` Keyword and `super`**
-    *   **Topic:** Making functions and modules public with `pub` to allow them to be called from outside their module, and using `super` to access parent modules.
-    *   **Exercise:** Make your `hosting` module and `add_to_waitlist` function public. Create a function at the root that uses the public path to call it.
-    *   **Hint:** By default, everything in Rust is private to its module.
-    *   **Book:** Chapter 7.3
+- ✅ **Day 53: The `pub` Keyword and `super`**
+    - **Topic:** Making functions and modules public with `pub` to allow them to be called from outside their module, and using `super` to access parent modules.
+    - **Exercise:** Make your `hosting` module and `add_to_waitlist` function public. Create a function at the root that uses the public path to call it.
+    - **Hint:** By default, everything in Rust is private to its module.
+    - **Book:** Chapter 7.3
 *   **Day 54: Separating Modules into Different Files**
     *   **Topic:** Splitting a large module into its own file to better organize your project.
     *   **Exercise:** Move the `front_of_house` module into its own file, `src/front_of_house.rs`, and declare it in `src/main.rs` with `mod front_of_house;`.
