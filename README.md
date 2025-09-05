@@ -319,11 +319,11 @@ A place to learn the Rust language.
     - **Exercise:** Make your `hosting` module and `add_to_waitlist` function public. Create a function at the root that uses the public path to call it.
     - **Hint:** By default, everything in Rust is private to its module.
     - **Book:** Chapter 7.3
-*   **Day 54: Separating Modules into Different Files**
-    *   **Topic:** Splitting a large module into its own file to better organize your project.
-    *   **Exercise:** Move the `front_of_house` module into its own file, `src/front_of_house.rs`, and declare it in `src/main.rs` with `mod front_of_house;`.
-    *   **Hint:** The file and folder structure follows the module tree.
-    *   **Book:** Chapter 7.5
+- ✅ **Day 54: Separating Modules into Different Files**
+    - **Topic:** Splitting a large module into its own file to better organize your project.
+    - **Exercise:** Move the `front_of_house` module into its own file, `src/front_of_house.rs`, and declare it in `src/main.rs` with `mod front_of_house;`.
+    - **Hint:** The file and folder structure follows the module tree.
+    - **Book:** Chapter 7.5
 *   **Day 55: Review: The Module System**
     *   **Topic:** Consolidating your understanding of modules, paths, `use`, and `pub`.
     *   **Exercise:** Create a small library-like structure with a `utils` module in its own file containing a public function, and call that function from `main`.
