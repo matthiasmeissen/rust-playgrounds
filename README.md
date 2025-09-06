@@ -324,11 +324,11 @@ A place to learn the Rust language.
     - **Exercise:** Move the `front_of_house` module into its own file, `src/front_of_house.rs`, and declare it in `src/main.rs` with `mod front_of_house;`.
     - **Hint:** The file and folder structure follows the module tree.
     - **Book:** Chapter 7.5
-*   **Day 55: Review: The Module System**
-    *   **Topic:** Consolidating your understanding of modules, paths, `use`, and `pub`.
-    *   **Exercise:** Create a small library-like structure with a `utils` module in its own file containing a public function, and call that function from `main`.
-    *   **Hint:** A well-organized module structure makes code easier to navigate.
-    *   **Book:** Chapter 7
+- ✅ **Day 55: Review: The Module System**
+    - **Topic:** Consolidating your understanding of modules, paths, `use`, and `pub`.
+    - **Exercise:** Create a small library-like structure with a `utils` module in its own file containing a public function, and call that function from `main`.
+    - **Hint:** A well-organized module structure makes code easier to navigate.
+    - **Book:** Chapter 7
 *   **Day 56: Storing Lists with Vectors (`Vec<T>`)**
     *   **Topic:** Using the growable, heap-allocated `Vec<T>` type to store a list of values of the same type.
     *   **Exercise:** Create a `Vec<i32>`, add some numbers to it using `push`, and print the whole vector using `{:?}`.
