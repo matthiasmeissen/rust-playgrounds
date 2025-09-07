@@ -1,0 +1,6 @@
+[package]
+name = "rust-56-vec-basics-250907"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
