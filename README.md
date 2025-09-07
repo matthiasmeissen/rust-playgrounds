@@ -329,11 +329,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a small library-like structure with a `utils` module in its own file containing a public function, and call that function from `main`.
     - **Hint:** A well-organized module structure makes code easier to navigate.
     - **Book:** Chapter 7
-*   **Day 56: Storing Lists with Vectors (`Vec<T>`)**
-    *   **Topic:** Using the growable, heap-allocated `Vec<T>` type to store a list of values of the same type.
-    *   **Exercise:** Create a `Vec<i32>`, add some numbers to it using `push`, and print the whole vector using `{:?}`.
-    *   **Hint:** `Vec` is Rust's version of a dynamic array or list.
-    *   **Book:** Chapter 8.1
+- ✅ **Day 56: Storing Lists with Vectors (`Vec<T>`)**
+    - **Topic:** Using the growable, heap-allocated `Vec<T>` type to store a list of values of the same type.
+    - **Exercise:** Create a `Vec<i32>`, add some numbers to it using `push`, and print the whole vector using `{:?}`.
+    - **Hint:** `Vec` is Rust's version of a dynamic array or list.
+    - **Book:** Chapter 8.1
 *   **Day 57: Reading and Iterating Over Vector Elements**
     *   **Topic:** Accessing elements in a vector by index and iterating over its elements with a `for` loop.
     *   **Exercise:** Create a `Vec<i32>`. Access the third element using `&v[2]`. Then, write a `for` loop that iterates over immutable references (`for i in &v`) and prints each element.
