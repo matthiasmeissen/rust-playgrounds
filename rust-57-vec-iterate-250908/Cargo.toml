@@ -1,0 +1,6 @@
+[package]
+name = "rust-57-vec-iterate-250908"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
