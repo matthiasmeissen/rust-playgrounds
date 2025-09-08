@@ -334,11 +334,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `Vec<i32>`, add some numbers to it using `push`, and print the whole vector using `{:?}`.
     - **Hint:** `Vec` is Rust's version of a dynamic array or list.
     - **Book:** Chapter 8.1
-*   **Day 57: Reading and Iterating Over Vector Elements**
-    *   **Topic:** Accessing elements in a vector by index and iterating over its elements with a `for` loop.
-    *   **Exercise:** Create a `Vec<i32>`. Access the third element using `&v[2]`. Then, write a `for` loop that iterates over immutable references (`for i in &v`) and prints each element.
-    *   **Hint:** Accessing an index that's out of bounds will cause a panic!
-    *   **Book:** Chapter 8.1
+- ✅ **Day 57: Reading and Iterating Over Vector Elements**
+    - **Topic:** Accessing elements in a vector by index and iterating over its elements with a `for` loop.
+    - **Exercise:** Create a `Vec<i32>`. Access the third element using `&v[2]`. Then, write a `for` loop that iterates over immutable references (`for i in &v`) and prints each element.
+    - **Hint:** Accessing an index that's out of bounds will cause a panic!
+    - **Book:** Chapter 8.1
 *   **Day 58: Using an Enum to Store Multiple Types**
     *   **Topic:** A classic Rust pattern: using a vector of `enum`s to store different types of data in the same collection.
     *   **Exercise:** Define an `enum SpreadsheetCell { Int(i32), Float(f64), Text(String) }`. Create a `Vec` that holds several variants of this enum.
