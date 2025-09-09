@@ -1,0 +1,6 @@
+[package]
+name = "rust-58-vec-enum-250909"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
