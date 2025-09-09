@@ -339,11 +339,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `Vec<i32>`. Access the third element using `&v[2]`. Then, write a `for` loop that iterates over immutable references (`for i in &v`) and prints each element.
     - **Hint:** Accessing an index that's out of bounds will cause a panic!
     - **Book:** Chapter 8.1
-*   **Day 58: Using an Enum to Store Multiple Types**
-    *   **Topic:** A classic Rust pattern: using a vector of `enum`s to store different types of data in the same collection.
-    *   **Exercise:** Define an `enum SpreadsheetCell { Int(i32), Float(f64), Text(String) }`. Create a `Vec` that holds several variants of this enum.
-    *   **Hint:** The `enum` itself becomes the single type that the vector holds.
-    *   **Book:** Chapter 8.1
+- ✅ **Day 58: Using an Enum to Store Multiple Types**
+    - **Topic:** A classic Rust pattern: using a vector of `enum`s to store different types of data in the same collection.
+    - **Exercise:** Define an `enum SpreadsheetCell { Int(i32), Float(f64), Text(String) }`. Create a `Vec` that holds several variants of this enum.
+    - **Hint:** The `enum` itself becomes the single type that the vector holds.
+    - **Book:** Chapter 8.1
 *   **Day 59: `String` vs. `&str` Recap**
     *   **Topic:** A deeper look at the heap-allocated, owned `String` and the borrowed, view-only `&str` (string slice).
     *   **Exercise:** Create a `String`. Write a function that takes a `&str` and prints it. Pass both your `String` (as `&my_string`) and a string literal to the function.
