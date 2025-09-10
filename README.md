@@ -344,11 +344,11 @@ A place to learn the Rust language.
     - **Exercise:** Define an `enum SpreadsheetCell { Int(i32), Float(f64), Text(String) }`. Create a `Vec` that holds several variants of this enum.
     - **Hint:** The `enum` itself becomes the single type that the vector holds.
     - **Book:** Chapter 8.1
-*   **Day 59: `String` vs. `&str` Recap**
-    *   **Topic:** A deeper look at the heap-allocated, owned `String` and the borrowed, view-only `&str` (string slice).
-    *   **Exercise:** Create a `String`. Write a function that takes a `&str` and prints it. Pass both your `String` (as `&my_string`) and a string literal to the function.
-    *   **Hint:** This is a crucial distinction for writing flexible Rust code.
-    *   **Book:** Chapter 8.2
+- ✅ **Day 59: `String` vs. `&str` Recap**
+    - **Topic:** A deeper look at the heap-allocated, owned `String` and the borrowed, view-only `&str` (string slice).
+    - **Exercise:** Create a `String`. Write a function that takes a `&str` and prints it. Pass both your `String` (as `&my_string`) and a string literal to the function.
+    - **Hint:** This is a crucial distinction for writing flexible Rust code.
+    - **Book:** Chapter 8.2
 *   **Day 60: Storing Key-Value Pairs with `HashMap<K, V>`**
     *   **Topic:** Using the `HashMap` collection to store data associated with a key.
     *   **Exercise:** Create a `HashMap` to store the scores of two teams. Insert the scores and print one of them by accessing its key.
