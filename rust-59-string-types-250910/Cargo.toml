@@ -1,0 +1,6 @@
+[package]
+name = "rust-59-string-types-250910"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
