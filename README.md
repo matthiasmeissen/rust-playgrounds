@@ -349,11 +349,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `String`. Write a function that takes a `&str` and prints it. Pass both your `String` (as `&my_string`) and a string literal to the function.
     - **Hint:** This is a crucial distinction for writing flexible Rust code.
     - **Book:** Chapter 8.2
-*   **Day 60: Storing Key-Value Pairs with `HashMap<K, V>`**
-    *   **Topic:** Using the `HashMap` collection to store data associated with a key.
-    *   **Exercise:** Create a `HashMap` to store the scores of two teams. Insert the scores and print one of them by accessing its key.
-    *   **Hint:** You must first `use std::collections::HashMap;`.
-    *   **Book:** Chapter 8.3
+- ✅ **Day 60: Storing Key-Value Pairs with `HashMap<K, V>`**
+    - **Topic:** Using the `HashMap` collection to store data associated with a key.
+    - **Exercise:** Create a `HashMap` to store the scores of two teams. Insert the scores and print one of them by accessing its key.
+    - **Hint:** You must first `use std::collections::HashMap;`.
+    - **Book:** Chapter 8.3
 *   **Day 61: Hash Maps and Ownership**
     *   **Topic:** Understanding how hash maps take ownership of their keys and values.
     *   **Exercise:** Create a `String` for a key and a `String` for a value. Insert them into a hash map. Try to use the key and value variables after they have been moved into the map and observe the compiler error.
