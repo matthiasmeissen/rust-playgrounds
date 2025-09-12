@@ -354,11 +354,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `HashMap` to store the scores of two teams. Insert the scores and print one of them by accessing its key.
     - **Hint:** You must first `use std::collections::HashMap;`.
     - **Book:** Chapter 8.3
-*   **Day 61: Hash Maps and Ownership**
-    *   **Topic:** Understanding how hash maps take ownership of their keys and values.
-    *   **Exercise:** Create a `String` for a key and a `String` for a value. Insert them into a hash map. Try to use the key and value variables after they have been moved into the map and observe the compiler error.
-    *   **Hint:** For types that implement `Copy` (like `i32`), the values are copied, not moved.
-    *   **Book:** Chapter 8.3
+- ✅ **Day 61: Hash Maps and Ownership**
+    - **Topic:** Understanding how hash maps take ownership of their keys and values.
+    - **Exercise:** Create a `String` for a key and a `String` for a value. Insert them into a hash map. Try to use the key and value variables after they have been moved into the map and observe the compiler error.
+    - **Hint:** For types that implement `Copy` (like `i32`), the values are copied, not moved.
+    - **Book:** Chapter 8.3
 *   **Day 62: Updating Values in a Hash Map**
     *   **Topic:** Overwriting values, and only inserting a value if the key has no value yet using the `entry` API.
     *   **Exercise:** Use the `entry` and `or_insert` methods to implement a simple counter. Iterate over a list of words, and use the hash map to track how many times you've seen each word.
