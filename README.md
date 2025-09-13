@@ -359,11 +359,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `String` for a key and a `String` for a value. Insert them into a hash map. Try to use the key and value variables after they have been moved into the map and observe the compiler error.
     - **Hint:** For types that implement `Copy` (like `i32`), the values are copied, not moved.
     - **Book:** Chapter 8.3
-*   **Day 62: Updating Values in a Hash Map**
-    *   **Topic:** Overwriting values, and only inserting a value if the key has no value yet using the `entry` API.
-    *   **Exercise:** Use the `entry` and `or_insert` methods to implement a simple counter. Iterate over a list of words, and use the hash map to track how many times you've seen each word.
-    *   **Hint:** `scores.entry(key).or_insert(value)` is the idiomatic way to do this.
-    *   **Book:** Chapter 8.3
+- ✅ **Day 62: Updating Values in a Hash Map**
+    - **Topic:** Overwriting values, and only inserting a value if the key has no value yet using the `entry` API.
+    - **Exercise:** Use the `entry` and `or_insert` methods to implement a simple counter. Iterate over a list of words, and use the hash map to track how many times you've seen each word.
+    - **Hint:** `scores.entry(key).or_insert(value)` is the idiomatic way to do this.
+    - **Book:** Chapter 8.3
 *   **Day 63: Project: Median and Mode**
     *   **Topic:** Applying vector and hash map knowledge.
     *   **Exercise:** Given a list of integers, use a vector and a hash map to return the median (middle value when sorted) and mode (most frequent value).
