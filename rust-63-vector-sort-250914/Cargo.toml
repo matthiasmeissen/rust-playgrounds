@@ -1,0 +1,6 @@
+[package]
+name = "rust-63-vector-sort-250914"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
