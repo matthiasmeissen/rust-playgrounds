@@ -364,11 +364,11 @@ A place to learn the Rust language.
     - **Exercise:** Use the `entry` and `or_insert` methods to implement a simple counter. Iterate over a list of words, and use the hash map to track how many times you've seen each word.
     - **Hint:** `scores.entry(key).or_insert(value)` is the idiomatic way to do this.
     - **Book:** Chapter 8.3
-*   **Day 63: Project: Median and Mode**
-    *   **Topic:** Applying vector and hash map knowledge.
-    *   **Exercise:** Given a list of integers, use a vector and a hash map to return the median (middle value when sorted) and mode (most frequent value).
-    *   **Hint:** You'll need to sort the vector to find the median.
-    *   **Book:** Chapter 8.3 (Project)
+- ✅ **Day 63: Project: Median and Mode**
+    - **Topic:** Applying vector and hash map knowledge.
+    - **Exercise:** Given a list of integers, use a vector and a hash map to return the median (middle value when sorted) and mode (most frequent value).
+    - **Hint:** You'll need to sort the vector to find the median.
+    - **Book:** Chapter 8.3 (Project)
 *   **Day 64: Project: Pig Latin**
     *   **Topic:** Applying string manipulation knowledge.
     *   **Exercise:** Convert strings to Pig Latin. The first consonant of each word is moved to the end of the word and "ay" is added, so "first" becomes "irst-fay". Words that start with a vowel have "hay" added to the end ("apple" becomes "apple-hay").
