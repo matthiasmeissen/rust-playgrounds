@@ -1,0 +1,6 @@
+[package]
+name = "rust-64-pig-latin-250915"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
