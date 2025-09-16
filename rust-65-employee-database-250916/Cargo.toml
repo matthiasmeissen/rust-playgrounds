@@ -1,0 +1,6 @@
+[package]
+name = "rust-65-employee-database-250916"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
