@@ -374,11 +374,11 @@ A place to learn the Rust language.
     - **Exercise:** Convert strings to Pig Latin. The first consonant of each word is moved to the end of the word and "ay" is added, so "first" becomes "irst-fay". Words that start with a vowel have "hay" added to the end ("apple" becomes "apple-hay").
     - **Hint:** Remember that `&str` cannot be easily indexed by character. You may want to iterate over `chars()`.
     - **Book:** Chapter 8.3 (Project)
-*   **Day 65: Review Phase 4**
-    *   **Topic:** Consolidating knowledge of modules and standard collections.
-    *   **Exercise:** Create a small "employee database" program. It should use a hash map to store employees by department. Use modules to separate the database logic from the main executable logic.
-    *   **Hint:** `HashMap<String, Vec<String>>` could be a good data structure for this.
-    *   **Book:** Chapters 7 & 8
+- ✅ **Day 65: Review Phase 4**
+    - **Topic:** Consolidating knowledge of modules and standard collections.
+    - **Exercise:** Create a small "employee database" program. It should use a hash map to store employees by department. Use modules to separate the database logic from the main executable logic.
+    - **Hint:** `HashMap<String, Vec<String>>` could be a good data structure for this.
+    - **Book:** Chapters 7 & 8
 
 ---
 
