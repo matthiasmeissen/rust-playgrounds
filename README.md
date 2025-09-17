@@ -384,11 +384,11 @@ A place to learn the Rust language.
 
 ### **Phase 5: Robust Error Handling (Days 66-73)**
 
-*   **Day 66: Unrecoverable Errors with `panic!`**
-    *   **Topic:** Understanding `panic!`, which stops program execution immediately.
-    *   **Exercise:** Write a simple program and call `panic!("crash and burn");`. Observe the output.
-    *   **Hint:** `panic!` is for unrecoverable errors, like bugs that should not happen. It's the equivalent of a C program aborting.
-    *   **Book:** Chapter 9.1
+- ✅ **Day 66: Unrecoverable Errors with `panic!`**
+    - **Topic:** Understanding `panic!`, which stops program execution immediately.
+    - **Exercise:** Write a simple program and call `panic!("crash and burn");`. Observe the output.
+    - **Hint:** `panic!` is for unrecoverable errors, like bugs that should not happen. It's the equivalent of a C program aborting.
+    - **Book:** Chapter 9.1
 *   **Day 67: Recoverable Errors with `Result<T, E>`**
     *   **Topic:** Using the `Result` enum, with variants `Ok(T)` and `Err(E)`, to handle errors that might be expected.
     *   **Exercise:** Use `std::fs::File::open` to open a file. The return type is a `Result`.
