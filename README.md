@@ -389,11 +389,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a simple program and call `panic!("crash and burn");`. Observe the output.
     - **Hint:** `panic!` is for unrecoverable errors, like bugs that should not happen. It's the equivalent of a C program aborting.
     - **Book:** Chapter 9.1
-*   **Day 67: Recoverable Errors with `Result<T, E>`**
-    *   **Topic:** Using the `Result` enum, with variants `Ok(T)` and `Err(E)`, to handle errors that might be expected.
-    *   **Exercise:** Use `std::fs::File::open` to open a file. The return type is a `Result`.
-    *   **Hint:** Compare this to C's `fopen`, which returns `NULL` on error. `Result` is explicit about the success and error types.
-    *   **Book:** Chapter 9.2
+- ✅ **Day 67: Recoverable Errors with `Result<T, E>`**
+    - **Topic:** Using the `Result` enum, with variants `Ok(T)` and `Err(E)`, to handle errors that might be expected.
+    - **Exercise:** Use `std::fs::File::open` to open a file. The return type is a `Result`.
+    - **Hint:** Compare this to C's `fopen`, which returns `NULL` on error. `Result` is explicit about the success and error types.
+    - **Book:** Chapter 9.2
 *   **Day 68: Matching on `Result<T, E>`**
     *   **Topic:** Using a `match` statement to handle both the `Ok` and `Err` variants of a `Result`.
     *   **Exercise:** Take the `Result` from Day 67 and `match` on it. If `Ok`, print "File opened." If `Err`, print "Failed to open file."
