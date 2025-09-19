@@ -394,11 +394,11 @@ A place to learn the Rust language.
     - **Exercise:** Use `std::fs::File::open` to open a file. The return type is a `Result`.
     - **Hint:** Compare this to C's `fopen`, which returns `NULL` on error. `Result` is explicit about the success and error types.
     - **Book:** Chapter 9.2
-*   **Day 68: Matching on `Result<T, E>`**
-    *   **Topic:** Using a `match` statement to handle both the `Ok` and `Err` variants of a `Result`.
-    *   **Exercise:** Take the `Result` from Day 67 and `match` on it. If `Ok`, print "File opened." If `Err`, print "Failed to open file."
-    *   **Hint:** This is the foundational way to handle a `Result`.
-    *   **Book:** Chapter 9.2
+- ✅ **Day 68: Matching on `Result<T, E>`**
+    - **Topic:** Using a `match` statement to handle both the `Ok` and `Err` variants of a `Result`.
+    - **Exercise:** Take the `Result` from Day 67 and `match` on it. If `Ok`, print "File opened." If `Err`, print "Failed to open file."
+    - **Hint:** This is the foundational way to handle a `Result`.
+    - **Book:** Chapter 9.2
 *   **Day 69: The `?` Operator for Propagating Errors**
     *   **Topic:** Using the `?` operator as a shortcut to return the `Err` part from a function, or unwrap the `Ok` part if there is no error.
     *   **Exercise:** Write a function that reads a username from a file. Use `File::open("hello.txt")?` inside the function.
