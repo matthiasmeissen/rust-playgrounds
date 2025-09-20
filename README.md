@@ -399,11 +399,11 @@ A place to learn the Rust language.
     - **Exercise:** Take the `Result` from Day 67 and `match` on it. If `Ok`, print "File opened." If `Err`, print "Failed to open file."
     - **Hint:** This is the foundational way to handle a `Result`.
     - **Book:** Chapter 9.2
-*   **Day 69: The `?` Operator for Propagating Errors**
-    *   **Topic:** Using the `?` operator as a shortcut to return the `Err` part from a function, or unwrap the `Ok` part if there is no error.
-    *   **Exercise:** Write a function that reads a username from a file. Use `File::open("hello.txt")?` inside the function.
-    *   **Hint:** The `?` operator can only be used in functions that return a `Result` or `Option`.
-    *   **Book:** Chapter 9.2
+- ✅ **Day 69: The `?` Operator for Propagating Errors**
+    - **Topic:** Using the `?` operator as a shortcut to return the `Err` part from a function, or unwrap the `Ok` part if there is no error.
+    - **Exercise:** Write a function that reads a username from a file. Use `File::open("hello.txt")?` inside the function.
+    - **Hint:** The `?` operator can only be used in functions that return a `Result` or `Option`.
+    - **Book:** Chapter 9.2
 *   **Day 70: Chaining `?` Operator Calls**
     *   **Topic:** Becoming comfortable with chaining multiple fallible operations together using `?`.
     *   **Exercise:** Extend the function from Day 69. After opening the file with `?`, read its contents into a string, also using `?`.
