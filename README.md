@@ -404,11 +404,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function that reads a username from a file. Use `File::open("hello.txt")?` inside the function.
     - **Hint:** The `?` operator can only be used in functions that return a `Result` or `Option`.
     - **Book:** Chapter 9.2
-*   **Day 70: Chaining `?` Operator Calls**
-    *   **Topic:** Becoming comfortable with chaining multiple fallible operations together using `?`.
-    *   **Exercise:** Extend the function from Day 69. After opening the file with `?`, read its contents into a string, also using `?`.
-    *   **Hint:** `std::fs::read_to_string` provides a more direct way to do this.
-    *   **Book:** Chapter 9.2
+- ✅ **Day 70: Chaining `?` Operator Calls**
+    - **Topic:** Becoming comfortable with chaining multiple fallible operations together using `?`.
+    - **Exercise:** Extend the function from Day 69. After opening the file with `?`, read its contents into a string, also using `?`.
+    - **Hint:** `std::fs::read_to_string` provides a more direct way to do this.
+    - **Book:** Chapter 9.2
 *   **Day 71: `main` can return `Result`**
     *   **Topic:** Simplifying error handling in your main function by allowing `main` to return a `Result`.
     *   **Exercise:** Change your `main` function signature to `fn main() -> Result<(), Box<dyn std::error::Error>>`. Now you can use the `?` operator directly inside `main`.
