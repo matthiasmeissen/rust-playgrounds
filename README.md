@@ -409,11 +409,11 @@ A place to learn the Rust language.
     - **Exercise:** Extend the function from Day 69. After opening the file with `?`, read its contents into a string, also using `?`.
     - **Hint:** `std::fs::read_to_string` provides a more direct way to do this.
     - **Book:** Chapter 9.2
-*   **Day 71: `main` can return `Result`**
-    *   **Topic:** Simplifying error handling in your main function by allowing `main` to return a `Result`.
-    *   **Exercise:** Change your `main` function signature to `fn main() -> Result<(), Box<dyn std::error::Error>>`. Now you can use the `?` operator directly inside `main`.
-    *   **Hint:** `Box<dyn Error>` is a "trait object," which we'll cover later. For now, it means "any kind of error."
-    *   **Book:** Chapter 9.2
+- ✅ **Day 71: `main` can return `Result`**
+    - **Topic:** Simplifying error handling in your main function by allowing `main` to return a `Result`.
+    - **Exercise:** Change your `main` function signature to `fn main() -> Result<(), Box<dyn std::error::Error>>`. Now you can use the `?` operator directly inside `main`.
+    - **Hint:** `Box<dyn Error>` is a "trait object," which we'll cover later. For now, it means "any kind of error."
+    - **Book:** Chapter 9.2
 *   **Day 72: When to `panic!` vs. Return `Result`**
     *   **Topic:** Developing an intuition for when an error is a bug (`panic!`) versus an expected outcome (`Result`).
     *   **Exercise:** No code. Write down a few scenarios. Example: A function is passed a `null` pointer from C. (Should probably `panic!`). Example: A file might not exist at a path the user gave. (Should return `Result`).
