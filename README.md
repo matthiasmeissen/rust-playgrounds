@@ -414,11 +414,11 @@ A place to learn the Rust language.
     - **Exercise:** Change your `main` function signature to `fn main() -> Result<(), Box<dyn std::error::Error>>`. Now you can use the `?` operator directly inside `main`.
     - **Hint:** `Box<dyn Error>` is a "trait object," which we'll cover later. For now, it means "any kind of error."
     - **Book:** Chapter 9.2
-*   **Day 72: When to `panic!` vs. Return `Result`**
-    *   **Topic:** Developing an intuition for when an error is a bug (`panic!`) versus an expected outcome (`Result`).
-    *   **Exercise:** No code. Write down a few scenarios. Example: A function is passed a `null` pointer from C. (Should probably `panic!`). Example: A file might not exist at a path the user gave. (Should return `Result`).
-    *   **Hint:** If the code can't possibly recover and continue in a meaningful way, `panic!` might be appropriate.
-    *   **Book:** Chapter 9.3
+- ✅ **Day 72: When to `panic!` vs. Return `Result`**
+    - **Topic:** Developing an intuition for when an error is a bug (`panic!`) versus an expected outcome (`Result`).
+    - **Exercise:** No code. Write down a few scenarios. Example: A function is passed a `null` pointer from C. (Should probably `panic!`). Example: A file might not exist at a path the user gave. (Should return `Result`).
+    - **Hint:** If the code can't possibly recover and continue in a meaningful way, `panic!` might be appropriate.
+    - **Book:** Chapter 9.3
 *   **Day 73: Review Phase 5**
     *   **Topic:** Consolidating error handling concepts.
     *   **Exercise:** Write a program that takes a filename from a command-line argument, opens it, and prints its contents. Use `?` and a `Result`-returning `main` function to handle all potential errors gracefully.
