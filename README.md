@@ -419,11 +419,11 @@ A place to learn the Rust language.
     - **Exercise:** No code. Write down a few scenarios. Example: A function is passed a `null` pointer from C. (Should probably `panic!`). Example: A file might not exist at a path the user gave. (Should return `Result`).
     - **Hint:** If the code can't possibly recover and continue in a meaningful way, `panic!` might be appropriate.
     - **Book:** Chapter 9.3
-*   **Day 73: Review Phase 5**
-    *   **Topic:** Consolidating error handling concepts.
-    *   **Exercise:** Write a program that takes a filename from a command-line argument, opens it, and prints its contents. Use `?` and a `Result`-returning `main` function to handle all potential errors gracefully.
-    *   **Hint:** Combine knowledge from argument parsing and file I/O with the `?` operator.
-    *   **Book:** Chapter 9
+- ✅ **Day 73: Review Phase 5**
+    - **Topic:** Consolidating error handling concepts.
+    - **Exercise:** Write a program that takes a filename from a command-line argument, opens it, and prints its contents. Use `?` and a `Result`-returning `main` function to handle all potential errors gracefully.
+    - **Hint:** Combine knowledge from argument parsing and file I/O with the `?` operator.
+    - **Book:** Chapter 9
 
 ---
 
