@@ -429,11 +429,11 @@ A place to learn the Rust language.
 
 ### **Phase 6: Abstraction and Generics (Days 74-90)**
 
-*   **Day 74: Removing Duplication with Generic Functions**
-    *   **Topic:** Using generic type parameters to write a function that can operate on values of multiple types.
-    *   **Exercise:** Write a generic function `largest<T>(list: &[T]) -> T` that can find the largest element in a slice of any type that supports ordering. You will get a compiler error.
-    *   **Hint:** The compiler error will tell you that it doesn't know how to compare the generic type `T`. This leads into traits.
-    *   **Book:** Chapter 10.1
+- ✅ **Day 74: Removing Duplication with Generic Functions**
+    - **Topic:** Using generic type parameters to write a function that can operate on values of multiple types.
+    - **Exercise:** Write a generic function `largest<T>(list: &[T]) -> T` that can find the largest element in a slice of any type that supports ordering. You will get a compiler error.
+    - **Hint:** The compiler error will tell you that it doesn't know how to compare the generic type `T`. This leads into traits.
+    - **Book:** Chapter 10.1
 *   **Day 75: Generics in Struct Definitions**
     *   **Topic:** Defining a struct with one or more generic type parameters.
     *   **Exercise:** Define a `struct Point<T> { x: T, y: T }`. Create instances of `Point` with both integer and float values.
