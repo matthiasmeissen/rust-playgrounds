@@ -434,11 +434,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a generic function `largest<T>(list: &[T]) -> T` that can find the largest element in a slice of any type that supports ordering. You will get a compiler error.
     - **Hint:** The compiler error will tell you that it doesn't know how to compare the generic type `T`. This leads into traits.
     - **Book:** Chapter 10.1
-*   **Day 75: Generics in Struct Definitions**
-    *   **Topic:** Defining a struct with one or more generic type parameters.
-    *   **Exercise:** Define a `struct Point<T> { x: T, y: T }`. Create instances of `Point` with both integer and float values.
-    *   **Hint:** This allows you to have, for example, `Point<i32>` and `Point<f64>` from the same definition.
-    *   **Book:** Chapter 10.1
+- ✅ **Day 75: Generics in Struct Definitions**
+    - **Topic:** Defining a struct with one or more generic type parameters.
+    - **Exercise:** Define a `struct Point<T> { x: T, y: T }`. Create instances of `Point` with both integer and float values.
+    - **Hint:** This allows you to have, for example, `Point<i32>` and `Point<f64>` from the same definition.
+    - **Book:** Chapter 10.1
 *   **Day 76: Introduction to Traits**
     *   **Topic:** Defining shared behavior with a `trait`, which is similar to an interface in other languages.
     *   **Exercise:** Define a `trait Summary` with a method signature `fn summarize(&self) -> String;`.
