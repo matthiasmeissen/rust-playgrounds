@@ -1,4 +1,3 @@
-
 // This defines a trait
 // It includes only one function with a specific signature, but no body
 // All types that want to implement this trait need to include that function
@@ -43,4 +42,11 @@ fn main() {
     };
 
     println!("New post: {}", post.summarize());
+
+    print_summary(post);
+}
+
+// This function can use any type that implements the Summary trait as an input 
+fn print_summary<T: Summary>(text: T) {
+    println!("The summary is: {}", text.summarize());
 }

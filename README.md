@@ -439,11 +439,11 @@ A place to learn the Rust language.
     - **Exercise:** Define a `struct Point<T> { x: T, y: T }`. Create instances of `Point` with both integer and float values.
     - **Hint:** This allows you to have, for example, `Point<i32>` and `Point<f64>` from the same definition.
     - **Book:** Chapter 10.1
-*   **Day 76: Introduction to Traits**
-    *   **Topic:** Defining shared behavior with a `trait`, which is similar to an interface in other languages.
-    *   **Exercise:** Define a `trait Summary` with a method signature `fn summarize(&self) -> String;`.
-    *   **Hint:** A trait defines a set of methods a type must implement to claim it has that behavior.
-    *   **Book:** Chapter 10.2
+- ✅ **Day 76: Introduction to Traits**
+    - **Topic:** Defining shared behavior with a `trait`, which is similar to an interface in other languages.
+    - **Exercise:** Define a `trait Summary` with a method signature `fn summarize(&self) -> String;`.
+    - **Hint:** A trait defines a set of methods a type must implement to claim it has that behavior.
+    - **Book:** Chapter 10.2
 *   **Day 77: Implementing a Trait on a Type**
     *   **Topic:** Using an `impl` block to provide the concrete implementation of a trait's methods for a specific type.
     *   **Exercise:** Implement the `Summary` trait for a `NewsArticle` struct and a `Tweet` struct.
