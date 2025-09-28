@@ -1,0 +1,6 @@
+[package]
+name = "rust-76-trait-basics-250928"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
