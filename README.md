@@ -444,11 +444,11 @@ A place to learn the Rust language.
     - **Exercise:** Define a `trait Summary` with a method signature `fn summarize(&self) -> String;`.
     - **Hint:** A trait defines a set of methods a type must implement to claim it has that behavior.
     - **Book:** Chapter 10.2
-*   **Day 77: Implementing a Trait on a Type**
-    *   **Topic:** Using an `impl` block to provide the concrete implementation of a trait's methods for a specific type.
-    *   **Exercise:** Implement the `Summary` trait for a `NewsArticle` struct and a `Tweet` struct.
-    *   **Hint:** The implementation for each struct will be different, but they will both satisfy the `Summary` trait.
-    *   **Book:** Chapter 10.2
+- ✅ **Day 77: Implementing a Trait on a Type**
+    - **Topic:** Using an `impl` block to provide the concrete implementation of a trait's methods for a specific type.
+    - **Exercise:** Implement the `Summary` trait for a `NewsArticle` struct and a `Tweet` struct.
+    - **Hint:** The implementation for each struct will be different, but they will both satisfy the `Summary` trait.
+    - **Book:** Chapter 10.2
 *   **Day 78: Trait Bounds**
     *   **Topic:** Using trait bounds on a generic function to accept any type that implements a specific trait.
     *   **Exercise:** Fix the `largest` function from Day 74 by adding a trait bound: `fn largest<T: PartialOrd + Copy>(list: &[T]) -> T`.
