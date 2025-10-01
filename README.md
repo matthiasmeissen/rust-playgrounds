@@ -449,11 +449,11 @@ A place to learn the Rust language.
     - **Exercise:** Implement the `Summary` trait for a `NewsArticle` struct and a `Tweet` struct.
     - **Hint:** The implementation for each struct will be different, but they will both satisfy the `Summary` trait.
     - **Book:** Chapter 10.2
-*   **Day 78: Trait Bounds**
-    *   **Topic:** Using trait bounds on a generic function to accept any type that implements a specific trait.
-    *   **Exercise:** Fix the `largest` function from Day 74 by adding a trait bound: `fn largest<T: PartialOrd + Copy>(list: &[T]) -> T`.
-    *   **Hint:** The `T: PartialOrd` part tells the compiler that `T` is a type that can be ordered.
-    *   **Book:** Chapter 10.2
+- ✅ **Day 78: Trait Bounds**
+    - **Topic:** Using trait bounds on a generic function to accept any type that implements a specific trait.
+    - **Exercise:** Fix the `largest` function from Day 74 by adding a trait bound: `fn largest<T: PartialOrd + Copy>(list: &[T]) -> T`.
+    - **Hint:** The `T: PartialOrd` part tells the compiler that `T` is a type that can be ordered.
+    - **Book:** Chapter 10.2
 *   **Day 79: `impl Trait` as a Parameter Type**
     *   **Topic:** Using `impl Trait` syntax for a simpler way to specify a parameter is a generic type that implements a particular trait.
     *   **Exercise:** Write a function `notify(item: &impl Summary)` that takes any type implementing the `Summary` trait.
