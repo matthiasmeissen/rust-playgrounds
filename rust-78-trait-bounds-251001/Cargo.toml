@@ -1,0 +1,6 @@
+[package]
+name = "rust-78-trait-bounds-251001"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
