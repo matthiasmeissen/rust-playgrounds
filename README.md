@@ -454,11 +454,11 @@ A place to learn the Rust language.
     - **Exercise:** Fix the `largest` function from Day 74 by adding a trait bound: `fn largest<T: PartialOrd + Copy>(list: &[T]) -> T`.
     - **Hint:** The `T: PartialOrd` part tells the compiler that `T` is a type that can be ordered.
     - **Book:** Chapter 10.2
-*   **Day 79: `impl Trait` as a Parameter Type**
-    *   **Topic:** Using `impl Trait` syntax for a simpler way to specify a parameter is a generic type that implements a particular trait.
-    *   **Exercise:** Write a function `notify(item: &impl Summary)` that takes any type implementing the `Summary` trait.
-    *   **Hint:** This is syntactic sugar for the longer trait bound syntax.
-    *   **Book:** Chapter 10.2
+- ✅ **Day 79: `impl Trait` as a Parameter Type**
+    - **Topic:** Using `impl Trait` syntax for a simpler way to specify a parameter is a generic type that implements a particular trait.
+    - **Exercise:** Write a function `notify(item: &impl Summary)` that takes any type implementing the `Summary` trait.
+    - **Hint:** This is syntactic sugar for the longer trait bound syntax.
+    - **Book:** Chapter 10.2
 *   **Day 80: Introduction to Lifetimes**
     *   **Topic:** Conceptual overview of lifetimes, which are how the borrow checker ensures all borrowed references are valid.
     *   **Exercise:** Re-read the dangling reference example from Day 31. Try to write a function `longest(x: &str, y: &str) -> &str`. Observe the compiler error.
