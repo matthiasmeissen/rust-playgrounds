@@ -459,11 +459,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a function `notify(item: &impl Summary)` that takes any type implementing the `Summary` trait.
     - **Hint:** This is syntactic sugar for the longer trait bound syntax.
     - **Book:** Chapter 10.2
-*   **Day 80: Introduction to Lifetimes**
-    *   **Topic:** Conceptual overview of lifetimes, which are how the borrow checker ensures all borrowed references are valid.
-    *   **Exercise:** Re-read the dangling reference example from Day 31. Try to write a function `longest(x: &str, y: &str) -> &str`. Observe the compiler error.
-    *   **Hint:** The compiler doesn't know if the returned reference will refer to `x` or `y`, so it can't determine if it will be valid.
-    *   **Book:** Chapter 10.3
+- ✅ **Day 80: Introduction to Lifetimes**
+    - **Topic:** Conceptual overview of lifetimes, which are how the borrow checker ensures all borrowed references are valid.
+    - **Exercise:** Re-read the dangling reference example from Day 31. Try to write a function `longest(x: &str, y: &str) -> &str`. Observe the compiler error.
+    - **Hint:** The compiler doesn't know if the returned reference will refer to `x` or `y`, so it can't determine if it will be valid.
+    - **Book:** Chapter 10.3
 *   **Day 81: Lifetime Annotation Syntax**
     *   **Topic:** Learning the syntax for lifetime annotations, e.g., `&'a str`.
     *   **Exercise:** Fix the `longest` function from Day 80 by adding lifetime parameters: `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str`.
