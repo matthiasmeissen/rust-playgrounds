@@ -469,11 +469,11 @@ A place to learn the Rust language.
     - **Exercise:** Fix the `longest` function from Day 80 by adding lifetime parameters: `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str`.
     - **Hint:** This tells the compiler that all the references in the function signature must have the same lifetime `'a`.
     - **Book:** Chapter 10.3
-*   **Day 82: Lifetime Annotations in Struct Definitions**
-    *   **Topic:** Using lifetime annotations when a struct needs to hold a reference.
-    *   **Exercise:** Define a struct `ImportantExcerpt<'a>` that holds a `part: &'a str`.
-    *   **Hint:** This tells the compiler that an instance of `ImportantExcerpt` cannot outlive the reference it holds.
-    *   **Book:** Chapter 10.3
+- ✅ **Day 82: Lifetime Annotations in Struct Definitions**
+    - **Topic:** Using lifetime annotations when a struct needs to hold a reference.
+    - **Exercise:** Define a struct `ImportantExcerpt<'a>` that holds a `part: &'a str`.
+    - **Hint:** This tells the compiler that an instance of `ImportantExcerpt` cannot outlive the reference it holds.
+    - **Book:** Chapter 10.3
 *   **Day 83: The Static Lifetime (`'static`)**
     *   **Topic:** Understanding the special `'static` lifetime, which means the reference can live for the entire duration of the program.
     *   **Exercise:** Create a variable `s` with a `&'static str` type. A string literal is a good example.

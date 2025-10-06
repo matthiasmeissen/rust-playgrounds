@@ -1,3 +1,9 @@
+// This struct has a generic lifetime called a
+// In the part member of the struct we assign this lifetime to the string slice (which si a reference)
+// This means that an instance of the ImportantExpert struct can not outlive the reference to the string slice
+struct ImportantExcerpt <'a> {
+    part: &'a str,
+}
 
 fn main() {
     let novel = String::from("Once upon a time. There was a planet called earth.");
@@ -9,5 +15,12 @@ fn main() {
     let first_sentence = sentences.next().unwrap();
     let second_sentence = sentences.next().unwrap();
 
-    println!("{}, {}", first_sentence, second_sentence);
+    let i = ImportantExcerpt {
+        part: first_sentence
+    };
+
+    println!("The first sentence is: {}", i.part);
+
+    // The trim() method removes any leading or trailing whitespace and linebreak characters
+    println!("First: {} \nSecond: {}", first_sentence.trim(), second_sentence.trim());
 }
