@@ -474,22 +474,46 @@ A place to learn the Rust language.
     - **Exercise:** Define a struct `ImportantExcerpt<'a>` that holds a `part: &'a str`.
     - **Hint:** This tells the compiler that an instance of `ImportantExcerpt` cannot outlive the reference it holds.
     - **Book:** Chapter 10.3
-*   **Day 83: The Static Lifetime (`'static`)**
-    *   **Topic:** Understanding the special `'static` lifetime, which means the reference can live for the entire duration of the program.
-    *   **Exercise:** Create a variable `s` with a `&'static str` type. A string literal is a good example.
-    *   **Hint:** All string literals have the `'static` lifetime.
-    *   **Book:** Chapter 10.3
-*   **Day 84-90: Project: `minigrep`**
-    *   **Topic:** Consolidating all learned concepts—modules, error handling, traits, lifetimes, and I/O—to build a simplified version of the `grep` command-line tool.
-    *   **Exercise:** Spend the next week following the `minigrep` project in the book.
-        *   Day 84: Parse command-line arguments.
-        *   Day 85: Read from a file.
-        *   Day 86: Refactor into a library crate.
-        *   Day 87: Handle environment variables.
-        *   Day 88: Write error messages to `stderr`.
-        *   Day 89: Add tests for the logic.
-        *   Day 90: Review and document the code.
-    *   **Book:** Chapter 12
+- ✅ **Day 83: The Static Lifetime (`'static`)**
+    - **Topic:** Understanding the special `'static` lifetime, which means the reference can live for the entire duration of the program.
+    - **Exercise:** Create a variable `s` with a `&'static str` type. A string literal is a good example.
+    - **Hint:** All string literals have the `'static` lifetime.
+    - **Book:** Chapter 10.3
+*   **Day 84: Accepting Command-Line Arguments & Reading a File**
+    *   **Topic:** Parsing arguments from the command line and reading file contents. This day covers the initial setup of the program's inputs.
+    *   **Exercise:** Write a program that takes two command-line arguments: a path to a file and a string to search for. Read the file specified in the first argument and then print its contents to the screen. For now, it's okay to use `.expect()` for basic error handling if the file can't be read.
+    *   **Hint:** Use `std::env::args().collect()` to get the arguments as a `Vec<String>`. Use `std::fs::read_to_string()` to read the file's contents into a string.
+    *   **Book:** Chapter 12.1 & 12.2
+*   **Day 85: Refactoring for Modularity**
+    *   **Topic:** Separating configuration and logic from the `main` function to improve the program's structure and clarity.
+    *   **Exercise:** Create a `Config` struct to hold the `query` and `filename` values. Implement an associated function `Config::new` that takes the vector of arguments and returns a `Config` instance. Move the core logic of reading the file and printing its contents into a separate `run` function that takes the `Config` instance as an argument.
+    *   **Hint:** The `main` function's primary role should be to call `Config::new` and then pass the result to `run`. This makes the logic in `main` easier to read.
+    *   **Book:** Chapter 12.3 (up to "Returning a `Result` from `new`")
+*   **Day 86: Improving Error Handling**
+    *   **Topic:** Replacing `panic!` with a more robust `Result` type for handling potential errors in argument parsing and file operations.
+    *   **Exercise:** Modify `Config::new` to return a `Result<Config, &'static str>` instead of panicking if there are too few arguments. Change the `run` function to return a `Result<(), Box<dyn Error>>` to handle I/O errors. Update `main` to handle these `Result` types gracefully without panicking.
+    *   **Hint:** In `main`, use an `if let Err(e)` block to check for and handle the error returned from `run`.
+    *   **Book:** Chapter 12.3 (finishing the section)
+*   **Day 87: Splitting Code into a Library Crate**
+    *   **Topic:** Organizing the project by separating the reusable logic into a library crate, leaving `main.rs` as the user-facing binary.
+    *   **Exercise:** Create `src/lib.rs` and move your `run` function, `Config` struct, and its `new` function into it. Make them public using the `pub` keyword. Modify `src/main.rs` to import and use the library crate's public API.
+    *   **Hint:** Your `main.rs` will get much shorter. It will only need to parse arguments into a `Config` object from your library and call the `run` function from your library.
+    *   **Book:** Chapter 12.4 (up to "Writing a Failing Test")
+*   **Day 88: Test-Driven Development for Search Logic**
+    *   **Topic:** Using Test-Driven Development (TDD) to implement the core search functionality in the library crate.
+    *   **Exercise:** In `src/lib.rs`, write a test for a new `search` function that fails initially. Then, implement the `search` function with the signature `pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str>`. The function should find and return all lines in `contents` that contain the `query`. Finally, integrate the `search` function into `run`.
+    *   **Hint:** The lifetime `'a` is necessary to tell Rust that the returned vector of string slices is tied to the lifetime of the `contents` slice.
+    *   **Book:** Chapter 12.4 (finishing the section)
+*   **Day 89: Adding Case-Insensitivity with Environment Variables**
+    *   **Topic:** Making the program's behavior configurable at runtime using environment variables.
+    *   **Exercise:** Implement a new `search_case_insensitive` function and write a test for it. Add a new boolean field to your `Config` struct to control case sensitivity. Set this field's value based on whether an environment variable (e.g., `IGNORE_CASE`) is set. Modify `run` to call the appropriate search function based on this configuration.
+    *   **Hint:** Use `std::env::var("YOUR_VAR_NAME").is_ok()` to check if an environment variable exists. The `to_lowercase()` method will be helpful for the case-insensitive search.
+    *   **Book:** Chapter 12.5
+*   **Day 90: Writing Error Messages to Standard Error (`stderr`)**
+    *   **Topic:** Directing error messages to `stderr` to follow command-line program conventions, allowing users to redirect successful output (`stdout`) without including errors.
+    *   **Exercise:** Refactor the error handling in `main.rs`. Instead of printing errors with `println!`, use the `eprintln!` macro. Change `main` to return a `Result<(), Box<dyn Error>>` so you can use the `?` operator for more concise error handling.
+    *   **Hint:** By having `main` return a `Result`, you can simplify the error handling logic significantly. Rust will automatically handle printing the error from an `Err` variant to `stderr` when `main` exits.
+    *   **Book:** Chapter 12.6
 
 ---
 
