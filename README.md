@@ -479,11 +479,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a variable `s` with a `&'static str` type. A string literal is a good example.
     - **Hint:** All string literals have the `'static` lifetime.
     - **Book:** Chapter 10.3
-*   **Day 84: Accepting Command-Line Arguments & Reading a File**
-    *   **Topic:** Parsing arguments from the command line and reading file contents. This day covers the initial setup of the program's inputs.
-    *   **Exercise:** Write a program that takes two command-line arguments: a path to a file and a string to search for. Read the file specified in the first argument and then print its contents to the screen. For now, it's okay to use `.expect()` for basic error handling if the file can't be read.
-    *   **Hint:** Use `std::env::args().collect()` to get the arguments as a `Vec<String>`. Use `std::fs::read_to_string()` to read the file's contents into a string.
-    *   **Book:** Chapter 12.1 & 12.2
+- ✅ **Day 84: Accepting Command-Line Arguments & Reading a File**
+    - **Topic:** Parsing arguments from the command line and reading file contents. This day covers the initial setup of the program's inputs.
+    - **Exercise:** Write a program that takes two command-line arguments: a path to a file and a string to search for. Read the file specified in the first argument and then print its contents to the screen. For now, it's okay to use `.expect()` for basic error handling if the file can't be read.
+    - **Hint:** Use `std::env::args().collect()` to get the arguments as a `Vec<String>`. Use `std::fs::read_to_string()` to read the file's contents into a string.
+    - **Book:** Chapter 12.1 & 12.2
 *   **Day 85: Refactoring for Modularity**
     *   **Topic:** Separating configuration and logic from the `main` function to improve the program's structure and clarity.
     *   **Exercise:** Create a `Config` struct to hold the `query` and `filename` values. Implement an associated function `Config::new` that takes the vector of arguments and returns a `Config` instance. Move the core logic of reading the file and printing its contents into a separate `run` function that takes the `Config` instance as an argument.
