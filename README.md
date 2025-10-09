@@ -484,11 +484,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a program that takes two command-line arguments: a path to a file and a string to search for. Read the file specified in the first argument and then print its contents to the screen. For now, it's okay to use `.expect()` for basic error handling if the file can't be read.
     - **Hint:** Use `std::env::args().collect()` to get the arguments as a `Vec<String>`. Use `std::fs::read_to_string()` to read the file's contents into a string.
     - **Book:** Chapter 12.1 & 12.2
-*   **Day 85: Refactoring for Modularity**
-    *   **Topic:** Separating configuration and logic from the `main` function to improve the program's structure and clarity.
-    *   **Exercise:** Create a `Config` struct to hold the `query` and `filename` values. Implement an associated function `Config::new` that takes the vector of arguments and returns a `Config` instance. Move the core logic of reading the file and printing its contents into a separate `run` function that takes the `Config` instance as an argument.
-    *   **Hint:** The `main` function's primary role should be to call `Config::new` and then pass the result to `run`. This makes the logic in `main` easier to read.
-    *   **Book:** Chapter 12.3 (up to "Returning a `Result` from `new`")
+- ✅ **Day 85: Refactoring for Modularity**
+    - **Topic:** Separating configuration and logic from the `main` function to improve the program's structure and clarity.
+    - **Exercise:** Create a `Config` struct to hold the `query` and `filename` values. Implement an associated function `Config::new` that takes the vector of arguments and returns a `Config` instance. Move the core logic of reading the file and printing its contents into a separate `run` function that takes the `Config` instance as an argument.
+    - **Hint:** The `main` function's primary role should be to call `Config::new` and then pass the result to `run`. This makes the logic in `main` easier to read.
+    - **Book:** Chapter 12.3 (up to "Returning a `Result` from `new`")
 *   **Day 86: Improving Error Handling**
     *   **Topic:** Replacing `panic!` with a more robust `Result` type for handling potential errors in argument parsing and file operations.
     *   **Exercise:** Modify `Config::new` to return a `Result<Config, &'static str>` instead of panicking if there are too few arguments. Change the `run` function to return a `Result<(), Box<dyn Error>>` to handle I/O errors. Update `main` to handle these `Result` types gracefully without panicking.
