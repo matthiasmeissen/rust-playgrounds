@@ -1,0 +1,6 @@
+[package]
+name = "rust-85-commandline-modular-251009"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
