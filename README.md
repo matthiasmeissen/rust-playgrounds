@@ -494,11 +494,11 @@ A place to learn the Rust language.
     - **Exercise:** Modify `Config::new` to return a `Result<Config, &'static str>` instead of panicking if there are too few arguments. Change the `run` function to return a `Result<(), Box<dyn Error>>` to handle I/O errors. Update `main` to handle these `Result` types gracefully without panicking.
     - **Hint:** In `main`, use an `if let Err(e)` block to check for and handle the error returned from `run`.
     - **Book:** Chapter 12.3 (finishing the section)
-*   **Day 87: Splitting Code into a Library Crate**
-    *   **Topic:** Organizing the project by separating the reusable logic into a library crate, leaving `main.rs` as the user-facing binary.
-    *   **Exercise:** Create `src/lib.rs` and move your `run` function, `Config` struct, and its `new` function into it. Make them public using the `pub` keyword. Modify `src/main.rs` to import and use the library crate's public API.
-    *   **Hint:** Your `main.rs` will get much shorter. It will only need to parse arguments into a `Config` object from your library and call the `run` function from your library.
-    *   **Book:** Chapter 12.4 (up to "Writing a Failing Test")
+- ✅ **Day 87: Splitting Code into a Library Crate**
+    - **Topic:** Organizing the project by separating the reusable logic into a library crate, leaving `main.rs` as the user-facing binary.
+    - **Exercise:** Create `src/lib.rs` and move your `run` function, `Config` struct, and its `new` function into it. Make them public using the `pub` keyword. Modify `src/main.rs` to import and use the library crate's public API.
+    - **Hint:** Your `main.rs` will get much shorter. It will only need to parse arguments into a `Config` object from your library and call the `run` function from your library.
+    - **Book:** Chapter 12.4 (up to "Writing a Failing Test")
 *   **Day 88: Test-Driven Development for Search Logic**
     *   **Topic:** Using Test-Driven Development (TDD) to implement the core search functionality in the library crate.
     *   **Exercise:** In `src/lib.rs`, write a test for a new `search` function that fails initially. Then, implement the `search` function with the signature `pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str>`. The function should find and return all lines in `contents` that contain the `query`. Finally, integrate the `search` function into `run`.
