@@ -499,11 +499,11 @@ A place to learn the Rust language.
     - **Exercise:** Create `src/lib.rs` and move your `run` function, `Config` struct, and its `new` function into it. Make them public using the `pub` keyword. Modify `src/main.rs` to import and use the library crate's public API.
     - **Hint:** Your `main.rs` will get much shorter. It will only need to parse arguments into a `Config` object from your library and call the `run` function from your library.
     - **Book:** Chapter 12.4 (up to "Writing a Failing Test")
-*   **Day 88: Test-Driven Development for Search Logic**
-    *   **Topic:** Using Test-Driven Development (TDD) to implement the core search functionality in the library crate.
-    *   **Exercise:** In `src/lib.rs`, write a test for a new `search` function that fails initially. Then, implement the `search` function with the signature `pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str>`. The function should find and return all lines in `contents` that contain the `query`. Finally, integrate the `search` function into `run`.
-    *   **Hint:** The lifetime `'a` is necessary to tell Rust that the returned vector of string slices is tied to the lifetime of the `contents` slice.
-    *   **Book:** Chapter 12.4 (finishing the section)
+- ✅ **Day 88: Test-Driven Development for Search Logic**
+    - **Topic:** Using Test-Driven Development (TDD) to implement the core search functionality in the library crate.
+    - **Exercise:** In `src/lib.rs`, write a test for a new `search` function that fails initially. Then, implement the `search` function with the signature `pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str>`. The function should find and return all lines in `contents` that contain the `query`. Finally, integrate the `search` function into `run`.
+    - **Hint:** The lifetime `'a` is necessary to tell Rust that the returned vector of string slices is tied to the lifetime of the `contents` slice.
+    - **Book:** Chapter 12.4 (finishing the section)
 *   **Day 89: Adding Case-Insensitivity with Environment Variables**
     *   **Topic:** Making the program's behavior configurable at runtime using environment variables.
     *   **Exercise:** Implement a new `search_case_insensitive` function and write a test for it. Add a new boolean field to your `Config` struct to control case sensitivity. Set this field's value based on whether an environment variable (e.g., `IGNORE_CASE`) is set. Modify `run` to call the appropriate search function based on this configuration.
