@@ -11,6 +11,7 @@ fn main() {
     });
 
     let run_result = run(config);
+
     match run_result {
         Ok(_) => (),
         Err(e) => {
