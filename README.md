@@ -509,11 +509,11 @@ A place to learn the Rust language.
     - **Exercise:** Implement a new `search_case_insensitive` function and write a test for it. Add a new boolean field to your `Config` struct to control case sensitivity. Set this field's value based on whether an environment variable (e.g., `IGNORE_CASE`) is set. Modify `run` to call the appropriate search function based on this configuration.
     - **Hint:** Use `std::env::var("YOUR_VAR_NAME").is_ok()` to check if an environment variable exists. The `to_lowercase()` method will be helpful for the case-insensitive search.
     - **Book:** Chapter 12.5
-*   **Day 90: Writing Error Messages to Standard Error (`stderr`)**
-    *   **Topic:** Directing error messages to `stderr` to follow command-line program conventions, allowing users to redirect successful output (`stdout`) without including errors.
-    *   **Exercise:** Refactor the error handling in `main.rs`. Instead of printing errors with `println!`, use the `eprintln!` macro. Change `main` to return a `Result<(), Box<dyn Error>>` so you can use the `?` operator for more concise error handling.
-    *   **Hint:** By having `main` return a `Result`, you can simplify the error handling logic significantly. Rust will automatically handle printing the error from an `Err` variant to `stderr` when `main` exits.
-    *   **Book:** Chapter 12.6
+- ✅ **Day 90: Writing Error Messages to Standard Error (`stderr`)**
+    - **Topic:** Directing error messages to `stderr` to follow command-line program conventions, allowing users to redirect successful output (`stdout`) without including errors.
+    - **Exercise:** Refactor the error handling in `main.rs`. Instead of printing errors with `println!`, use the `eprintln!` macro. Change `main` to return a `Result<(), Box<dyn Error>>` so you can use the `?` operator for more concise error handling.
+    - **Hint:** By having `main` return a `Result`, you can simplify the error handling logic significantly. Rust will automatically handle printing the error from an `Err` variant to `stderr` when `main` exits.
+    - **Book:** Chapter 12.6
 
 ---
 
