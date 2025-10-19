@@ -519,11 +519,11 @@ A place to learn the Rust language.
 
 ### **Phase 7: Advanced Features & Beyond (Days 91-99)**
 
-*   **Day 91: Closures (Anonymous Functions)**
-    *   **Topic:** Using closures, which are function-like constructs you can store in a variable.
-    *   **Exercise:** Define a closure that takes one number and adds one to it. Store it in a variable and call it.
-    *   **Hint:** `let plus_one = |x| x + 1;`
-    *   **Book:** Chapter 13.1
+- ✅ **Day 91: Closures (Anonymous Functions)**
+    - **Topic:** Using closures, which are function-like constructs you can store in a variable.
+    - **Exercise:** Define a closure that takes one number and adds one to it. Store it in a variable and call it.
+    - **Hint:** `let plus_one = |x| x + 1;`
+    - **Book:** Chapter 13.1
 *   **Day 92: Capturing the Environment with Closures**
     *   **Topic:** Understanding how closures can capture values from the scope in which they are defined.
     *   **Exercise:** Create a variable `x`. Define a closure that uses `x`. Call the closure and print the result.
