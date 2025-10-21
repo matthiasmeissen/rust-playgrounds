@@ -524,11 +524,11 @@ A place to learn the Rust language.
     - **Exercise:** Define a closure that takes one number and adds one to it. Store it in a variable and call it.
     - **Hint:** `let plus_one = |x| x + 1;`
     - **Book:** Chapter 13.1
-*   **Day 92: Capturing the Environment with Closures**
-    *   **Topic:** Understanding how closures can capture values from the scope in which they are defined.
-    *   **Exercise:** Create a variable `x`. Define a closure that uses `x`. Call the closure and print the result.
-    *   **Hint:** Closures can capture by reference, mutable reference, or by value.
-    *   **Book:** Chapter 13.1
+- ✅ **Day 92: Capturing the Environment with Closures**
+    - **Topic:** Understanding how closures can capture values from the scope in which they are defined.
+    - **Exercise:** Create a variable `x`. Define a closure that uses `x`. Call the closure and print the result.
+    - **Hint:** Closures can capture by reference, mutable reference, or by value.
+    - **Book:** Chapter 13.1
 *   **Day 93: Processing Data with Iterators**
     *   **Topic:** Using the `Iterator` trait to perform tasks on a sequence of items.
     *   **Exercise:** Create a vector. Call the `.iter()` method on it. Use a `for` loop to consume the iterator and print its values.
