@@ -529,11 +529,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a variable `x`. Define a closure that uses `x`. Call the closure and print the result.
     - **Hint:** Closures can capture by reference, mutable reference, or by value.
     - **Book:** Chapter 13.1
-*   **Day 93: Processing Data with Iterators**
-    *   **Topic:** Using the `Iterator` trait to perform tasks on a sequence of items.
-    *   **Exercise:** Create a vector. Call the `.iter()` method on it. Use a `for` loop to consume the iterator and print its values.
-    *   **Hint:** The `for` loop takes ownership of the iterator and calls `.next()` on it repeatedly.
-    *   **Book:** Chapter 13.2
+- ✅ **Day 93: Processing Data with Iterators**
+    - **Topic:** Using the `Iterator` trait to perform tasks on a sequence of items.
+    - **Exercise:** Create a vector. Call the `.iter()` method on it. Use a `for` loop to consume the iterator and print its values.
+    - **Hint:** The `for` loop takes ownership of the iterator and calls `.next()` on it repeatedly.
+    - **Book:** Chapter 13.2
 *   **Day 94: Iterator Adapters (`map`, `filter`)**
     *   **Topic:** Using methods that transform iterators into different kinds of iterators (iterator adapters).
     *   **Exercise:** Take a vector of numbers, call `.iter()`, then `.map()` with a closure to add 1 to each item, and then collect the results into a new vector.
