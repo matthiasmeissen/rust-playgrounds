@@ -23,7 +23,6 @@ fn simple_iter<T: std::fmt::Display>(nums: &[T]) {
 
 fn explicit_iter<T: std::fmt::Display>(nums: &[T]) {
     let nums_iter = nums.iter();
-
     for num in nums_iter {
         println!("{num}");
     }
@@ -31,7 +30,6 @@ fn explicit_iter<T: std::fmt::Display>(nums: &[T]) {
 
 fn modifying_iter(nums: &mut[i32]) {
     let mut nums_iter = nums.iter_mut();
-
     for num in nums_iter {
         *num += 2;
     }
