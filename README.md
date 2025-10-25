@@ -534,11 +534,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a vector. Call the `.iter()` method on it. Use a `for` loop to consume the iterator and print its values.
     - **Hint:** The `for` loop takes ownership of the iterator and calls `.next()` on it repeatedly.
     - **Book:** Chapter 13.2
-*   **Day 94: Iterator Adapters (`map`, `filter`)**
-    *   **Topic:** Using methods that transform iterators into different kinds of iterators (iterator adapters).
-    *   **Exercise:** Take a vector of numbers, call `.iter()`, then `.map()` with a closure to add 1 to each item, and then collect the results into a new vector.
-    *   **Hint:** Iterator adapters are lazy; they don't do any work until you call a consuming method.
-    *   **Book:** Chapter 13.2
+- ✅ **Day 94: Iterator Adapters (`map`, `filter`)**
+    - **Topic:** Using methods that transform iterators into different kinds of iterators (iterator adapters).
+    - **Exercise:** Take a vector of numbers, call `.iter()`, then `.map()` with a closure to add 1 to each item, and then collect the results into a new vector.
+    - **Hint:** Iterator adapters are lazy; they don't do any work until you call a consuming method.
+    - **Book:** Chapter 13.2
 *   **Day 95: Consuming Iterators (`collect`)**
     *   **Topic:** Using methods that consume an iterator and produce a final value, like `collect()`.
     *   **Exercise:** Create a vector of numbers `v`. Call `v.iter().map(|x| x * 2).collect()` to create a new vector.
