@@ -539,11 +539,11 @@ A place to learn the Rust language.
     - **Exercise:** Take a vector of numbers, call `.iter()`, then `.map()` with a closure to add 1 to each item, and then collect the results into a new vector.
     - **Hint:** Iterator adapters are lazy; they don't do any work until you call a consuming method.
     - **Book:** Chapter 13.2
-*   **Day 95: Consuming Iterators (`collect`)**
-    *   **Topic:** Using methods that consume an iterator and produce a final value, like `collect()`.
-    *   **Exercise:** Create a vector of numbers `v`. Call `v.iter().map(|x| x * 2).collect()` to create a new vector.
-    *   **Hint:** You may need to provide a type annotation: `let new_vec: Vec<_> = ...`
-    *   **Book:** Chapter 13.2
+- ✅ **Day 95: Consuming Iterators (`collect`)**
+    - **Topic:** Using methods that consume an iterator and produce a final value, like `collect()`.
+    - **Exercise:** Create a vector of numbers `v`. Call `v.iter().map(|x| x * 2).collect()` to create a new vector.
+    - **Hint:** You may need to provide a type annotation: `let new_vec: Vec<_> = ...`
+    - **Book:** Chapter 13.2
 *   **Day 96: Automated Tests**
     *   **Topic:** Writing functions marked with `#[test]` that `cargo` can run to verify your code's correctness.
     *   **Exercise:** Write a simple `add(a: i32, b: i32) -> i32` function. Create a `tests` module and write a test function to assert that `add(2, 2)` equals 4. Run `cargo test`.
