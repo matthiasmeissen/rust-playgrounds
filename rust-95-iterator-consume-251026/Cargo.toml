@@ -1,0 +1,6 @@
+[package]
+name = "rust-95-iterator-consume-251026"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
