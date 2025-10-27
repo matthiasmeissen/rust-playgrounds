@@ -544,11 +544,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a vector of numbers `v`. Call `v.iter().map(|x| x * 2).collect()` to create a new vector.
     - **Hint:** You may need to provide a type annotation: `let new_vec: Vec<_> = ...`
     - **Book:** Chapter 13.2
-*   **Day 96: Automated Tests**
-    *   **Topic:** Writing functions marked with `#[test]` that `cargo` can run to verify your code's correctness.
-    *   **Exercise:** Write a simple `add(a: i32, b: i32) -> i32` function. Create a `tests` module and write a test function to assert that `add(2, 2)` equals 4. Run `cargo test`.
-    *   **Hint:** `#[cfg(test)]` tells the compiler to only compile this code when running tests.
-    *   **Book:** Chapter 11
+- ✅ **Day 96: Automated Tests**
+    - **Topic:** Writing functions marked with `#[test]` that `cargo` can run to verify your code's correctness.
+    - **Exercise:** Write a simple `add(a: i32, b: i32) -> i32` function. Create a `tests` module and write a test function to assert that `add(2, 2)` equals 4. Run `cargo test`.
+    - **Hint:** `#[cfg(test)]` tells the compiler to only compile this code when running tests.
+    - **Book:** Chapter 11
 *   **Day 97: Smart Pointers (`Box<T>`)**
     *   **Topic:** Using `Box<T>`, the simplest smart pointer, to allocate values on the heap.
     *   **Exercise:** Create a `Box` to store an `i32` on the heap.
