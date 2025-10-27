@@ -1,0 +1,6 @@
+[package]
+name = "rust-96-iterator-env-251027"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
