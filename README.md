@@ -549,11 +549,11 @@ A place to learn the Rust language.
     - **Exercise:** Write a simple `add(a: i32, b: i32) -> i32` function. Create a `tests` module and write a test function to assert that `add(2, 2)` equals 4. Run `cargo test`.
     - **Hint:** `#[cfg(test)]` tells the compiler to only compile this code when running tests.
     - **Book:** Chapter 11
-*   **Day 97: Smart Pointers (`Box<T>`)**
-    *   **Topic:** Using `Box<T>`, the simplest smart pointer, to allocate values on the heap.
-    *   **Exercise:** Create a `Box` to store an `i32` on the heap.
-    *   **Hint:** This is the foundation for data structures like linked lists.
-    *   **Book:** Chapter 15.1
+- ✅ **Day 97: Smart Pointers (`Box<T>`)**
+    - **Topic:** Using `Box<T>`, the simplest smart pointer, to allocate values on the heap.
+    - **Exercise:** Create a `Box` to store an `i32` on the heap.
+    - **Hint:** This is the foundation for data structures like linked lists.
+    - **Book:** Chapter 15.1
 *   **Day 98: Concurrency**
     *   **Topic:** Spawning threads to run code simultaneously.
     *   **Exercise:** Use `std::thread::spawn` to create a new thread that prints a message. Use a handle to wait for the thread to finish.
