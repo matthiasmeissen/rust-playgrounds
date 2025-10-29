@@ -1,0 +1,6 @@
+[package]
+name = "rust-97-test-basics-251029"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
