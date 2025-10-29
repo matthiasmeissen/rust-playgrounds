@@ -1,6 +1,6 @@
 
 fn main() {
-    
+   add_two(3);
 }
 
 pub fn add_two(x: i32) -> i32 {
