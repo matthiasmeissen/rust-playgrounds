@@ -554,11 +554,11 @@ A place to learn the Rust language.
     - **Exercise:** Create a `Box` to store an `i32` on the heap.
     - **Hint:** This is the foundation for data structures like linked lists.
     - **Book:** Chapter 15.1
-*   **Day 98: Concurrency**
-    *   **Topic:** Spawning threads to run code simultaneously.
-    *   **Exercise:** Use `std::thread::spawn` to create a new thread that prints a message. Use a handle to wait for the thread to finish.
-    *   **Hint:** Use `move` closures to transfer ownership of data to a new thread.
-    *   **Book:** Chapter 16
+- ✅ **Day 98: Concurrency**
+    - **Topic:** Spawning threads to run code simultaneously.
+    - **Exercise:** Use `std::thread::spawn` to create a new thread that prints a message. Use a handle to wait for the thread to finish.
+    - **Hint:** Use `move` closures to transfer ownership of data to a new thread.
+    - **Book:** Chapter 16
 *   **Day 99: Final Review & Next Steps**
     *   **Topic:** Reflecting on the journey from C to Rust and planning what to learn next.
     *   **Exercise:** Go back to your `minigrep` project. Can you refactor it using iterators? Can you improve the error handling? Write down what you found most challenging about Rust and what you found most rewarding.
