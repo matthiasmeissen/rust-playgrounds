@@ -1,0 +1,6 @@
+[package]
+name = "rust-98-box-basics-251030"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
