@@ -559,8 +559,8 @@ A place to learn the Rust language.
     - **Exercise:** Use `std::thread::spawn` to create a new thread that prints a message. Use a handle to wait for the thread to finish.
     - **Hint:** Use `move` closures to transfer ownership of data to a new thread.
     - **Book:** Chapter 16
-*   **Day 99: Final Review & Next Steps**
-    *   **Topic:** Reflecting on the journey from C to Rust and planning what to learn next.
-    *   **Exercise:** Go back to your `minigrep` project. Can you refactor it using iterators? Can you improve the error handling? Write down what you found most challenging about Rust and what you found most rewarding.
-    *   **Hint:** Consider exploring popular libraries like `serde` for serialization or `tokio` for asynchronous programming as your next step.
-    *   **Book:** Chapter 20 (Final Project: A Multi-Threaded Web Server)
+- ✅ **Day 99: Final Review & Next Steps**
+    - **Topic:** Reflecting on the journey from C to Rust and planning what to learn next.
+    - **Exercise:** Go back to your `minigrep` project. Can you refactor it using iterators? Can you improve the error handling? Write down what you found most challenging about Rust and what you found most rewarding.
+    - **Hint:** Consider exploring popular libraries like `serde` for serialization or `tokio` for asynchronous programming as your next step.
+    - **Book:** Chapter 20 (Final Project: A Multi-Threaded Web Server)
